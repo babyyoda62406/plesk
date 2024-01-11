@@ -3,7 +3,7 @@ var DOCUMENTATION_OPTIONS = {
     VERSION: 'obsidian',
     LANGUAGE: 'es',
     COLLAPSE_INDEX: false,
-    FILE_SUFFIX: '.htm',
+    FILE_SUFFIX: '.html',
     HAS_SOURCE: false,
     SOURCELINK_SUFFIX: '.txt'
 };
