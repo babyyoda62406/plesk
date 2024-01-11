@@ -1,0 +1,321 @@
+[
+  {
+    "id": 1,
+    "o": 74371,
+    "text": "Antes de empezar",
+    "url": "about.htm",
+    "node": "0",
+    "leaf": true
+  },
+  {
+    "id": 2,
+    "o": 74372,
+    "text": "Introducci\u00f3n a Plesk",
+    "url": "74372.htm",
+    "node": "1",
+    "children": [
+      {
+        "id": 3,
+        "o": 743720000,
+        "text": "Acceso a Plesk por primera vez",
+        "url": "74372.htm#logging-in-to-plesk-for-the-first-time",
+        "node": "1+0",
+        "leaf": true
+      },
+      {
+        "id": 4,
+        "o": 743720001,
+        "text": "Explicaci\u00f3n de la interfaz de usuario de Plesk",
+        "url": "74372.htm#plesk-user-interface-explained",
+        "node": "1+1",
+        "leaf": true
+      },
+      {
+        "id": 5,
+        "o": 743720002,
+        "text": "Concepto de suscripci\u00f3n",
+        "url": "74372.htm#understanding-subscriptions",
+        "node": "1+2",
+        "leaf": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "o": 74376,
+    "text": "Tutorial de Plesk",
+    "url": "74376.htm",
+    "node": "2",
+    "children": [
+      {
+        "id": 7,
+        "o": 743760000,
+        "text": "Paso 1. Crear su primer sitio web",
+        "url": "74376.htm#step-1-create-your-first-website",
+        "node": "2+0",
+        "leaf": true
+      },
+      {
+        "id": 8,
+        "o": 743760001,
+        "text": "Paso 2. Crear una base de datos",
+        "url": "74376.htm#step-2-create-a-database",
+        "node": "2+1",
+        "leaf": true
+      },
+      {
+        "id": 9,
+        "o": 743760002,
+        "text": "Paso 3. Crear una cuenta de correo",
+        "url": "74376.htm#step-3-create-a-mail-account",
+        "node": "2+2",
+        "leaf": true
+      },
+      {
+        "id": 10,
+        "o": 743760003,
+        "text": "Paso 4. A\u00f1adir un registro DNS personalizado",
+        "url": "74376.htm#step-4-add-a-custom-dns-record",
+        "node": "2+3",
+        "leaf": true
+      },
+      {
+        "id": 11,
+        "o": 743760004,
+        "text": "Paso 5. Realizar un backup de su sitio web",
+        "url": "74376.htm#step-5-back-up-your-website",
+        "node": "2+4",
+        "leaf": true
+      },
+      {
+        "id": 12,
+        "o": 743760005,
+        "text": "Paso 6. Cambiar su contrase\u00f1a y cerrar sesi\u00f3n",
+        "url": "74376.htm#step-6-change-your-password-and-log-out",
+        "node": "2+5",
+        "leaf": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "o": 74377,
+    "text": "Explicaci\u00f3n sobre las funciones de Plesk",
+    "url": "74377.htm",
+    "node": "3",
+    "children": [
+      {
+        "id": 14,
+        "o": 74400,
+        "text": "Administraci\u00f3n de su cuenta de usuario",
+        "url": "74400.htm",
+        "node": "3+0",
+        "leaf": true
+      },
+      {
+        "id": 15,
+        "o": 74401,
+        "text": "Administraci\u00f3n de hosting web",
+        "url": "74401.htm",
+        "node": "3+1",
+        "children": [
+          {
+            "id": 16,
+            "o": 744010000,
+            "text": "Adici\u00f3n de dominios",
+            "url": "74401.htm#adding-domains",
+            "node": "3+1+0",
+            "leaf": true
+          },
+          {
+            "id": 17,
+            "o": 744010001,
+            "text": "Adici\u00f3n de subdominios",
+            "url": "74401.htm#adding-subdomains",
+            "node": "3+1+1",
+            "leaf": true
+          },
+          {
+            "id": 18,
+            "o": 744010002,
+            "text": "Adici\u00f3n de alias de dominio",
+            "url": "74401.htm#adding-domain-aliases",
+            "node": "3+1+2",
+            "leaf": true
+          },
+          {
+            "id": 19,
+            "o": 744010003,
+            "text": "Creaci\u00f3n de p\u00e1ginas de error personalizadas",
+            "url": "74401.htm#setting-up-custom-error-pages",
+            "node": "3+1+3",
+            "leaf": true
+          },
+          {
+            "id": 20,
+            "o": 744010004,
+            "text": "Configuraci\u00f3n del redireccionamiento HTTP 301",
+            "url": "74401.htm#setting-up-http-301-redirection",
+            "node": "3+1+4",
+            "leaf": true
+          },
+          {
+            "id": 21,
+            "o": 744010005,
+            "text": "Configuraci\u00f3n del dominio preferido",
+            "url": "74401.htm#configuring-the-preferred-domain",
+            "node": "3+1+5",
+            "leaf": true
+          },
+          {
+            "id": 22,
+            "o": 744010006,
+            "text": "Configuraci\u00f3n de la p\u00e1gina de inicio predeterminada",
+            "url": "74401.htm#setting-the-default-homepage",
+            "node": "3+1+6",
+            "leaf": true
+          },
+          {
+            "id": 23,
+            "o": 744010007,
+            "text": "Cambio del directorio de la ra\u00edz de documentos",
+            "url": "74401.htm#changing-the-document-root-directory",
+            "node": "3+1+7",
+            "leaf": true
+          },
+          {
+            "id": 24,
+            "o": 744010008,
+            "text": "Selecci\u00f3n de la versi\u00f3n de PHP",
+            "url": "74401.htm#selecting-php-version",
+            "node": "3+1+8",
+            "leaf": true
+          },
+          {
+            "id": 25,
+            "o": 744010009,
+            "text": "Ajuste de la configuraci\u00f3n de PHP",
+            "url": "74401.htm#configuring-php-settings",
+            "node": "3+1+9",
+            "leaf": true
+          },
+          {
+            "id": 26,
+            "o": 744010010,
+            "text": "Seleccionando versi\u00f3n de ASP.NET",
+            "url": "74401.htm#selecting-asp-net-version",
+            "node": "3+1+10",
+            "leaf": true
+          },
+          {
+            "id": 27,
+            "o": 744010011,
+            "text": "Configuraci\u00f3n de tipos MIME",
+            "url": "74401.htm#setting-mime-types",
+            "node": "3+1+11",
+            "leaf": true
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "o": 74402,
+        "text": "Carga de contenido",
+        "url": "74402.htm",
+        "node": "3+2",
+        "children": [
+          {
+            "id": 29,
+            "o": 744020000,
+            "text": "Carga de contenido mediante FTP",
+            "url": "74402.htm#uploading-content-using-ftp",
+            "node": "3+2+0",
+            "leaf": true
+          },
+          {
+            "id": 30,
+            "o": 744020001,
+            "text": "Carga de contenido a trav\u00e9s del administrador de archivos",
+            "url": "74402.htm#uploading-content-using-the-file-manager",
+            "node": "3+2+1",
+            "leaf": true
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "o": 74403,
+        "text": "Administraci\u00f3n de cuentas de correo",
+        "url": "74403.htm",
+        "node": "3+3",
+        "leaf": true
+      },
+      {
+        "id": 32,
+        "o": 74404,
+        "text": "Administraci\u00f3n de registros DNS",
+        "url": "74404.htm",
+        "node": "3+4",
+        "children": [
+          {
+            "id": 33,
+            "o": 744040000,
+            "text": "Adici\u00f3n y modificaci\u00f3n de registros DNS",
+            "url": "74404.htm#adding-and-modifying-dns-records",
+            "node": "3+4+0",
+            "leaf": true
+          },
+          {
+            "id": 34,
+            "o": 744040001,
+            "text": "Uso de servidores DNS externos",
+            "url": "74404.htm#using-external-dns-servers",
+            "node": "3+4+1",
+            "leaf": true
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "o": 74405,
+        "text": "Administraci\u00f3n de aplicaciones web",
+        "url": "74405.htm",
+        "node": "3+5",
+        "leaf": true
+      },
+      {
+        "id": 36,
+        "o": 74406,
+        "text": "Visualizaci\u00f3n de estad\u00edsticas",
+        "url": "74406.htm",
+        "node": "3+6",
+        "leaf": true
+      },
+      {
+        "id": 37,
+        "o": 74407,
+        "text": "Administraci\u00f3n de backups",
+        "url": "74407.htm",
+        "node": "3+7",
+        "children": [
+          {
+            "id": 38,
+            "o": 744070000,
+            "text": "Copia de cuentas y sitios web",
+            "url": "74407.htm#backing-up-account-and-websites",
+            "node": "3+7+0",
+            "leaf": true
+          },
+          {
+            "id": 39,
+            "o": 744070001,
+            "text": "Restauraci\u00f3n de backups",
+            "url": "74407.htm#restoring-backups",
+            "node": "3+7+1",
+            "leaf": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,363 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Tutorial de Plesk</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="author" title="Sobre este documento" href="about.htm" />
+    <link rel="index" title="Índice" href="genindex.htm" />
+    <link rel="search" title="Búsqueda" href="search.htm" />
+    <link rel="next" title="Explicación sobre las funciones de Plesk" href="74377.htm" />
+    <link rel="prev" title="Introducción a Plesk" href="74372.htm" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.htm" class="icon icon-home"> Getting Started with Managing Websites in Plesk
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.htm" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about.htm">Antes de empezar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="74372.htm">Introducción a Plesk</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Tutorial de Plesk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="74377.htm">Explicación sobre las funciones de Plesk</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="74400.htm">Administración de su cuenta de usuario</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74401.htm">Administración de hosting web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74402.htm">Carga de contenido</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74403.htm">Administración de cuentas de correo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74404.htm">Administración de registros DNS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74405.htm">Administración de aplicaciones web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74406.htm">Visualización de estadísticas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74407.htm">Administración de backups</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.htm">Getting Started with Managing Websites in Plesk</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.htm">Docs</a> &raquo;</li>
+        
+      <li>Tutorial de Plesk</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="plesk-tutorial">
+<h1>Tutorial de Plesk<a class="headerlink" href="#plesk-tutorial" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>En esta sección se muestra, paso a paso, la forma de realizar las tareas de hosting web más básicas a través de Plesk. Una vez completado el tutorial, habrá creado un sitio web totalmente funcional, al que habrá añadido una base de datos y una cuenta de correo. Asimismo, habrá aprendido a administrar registros DNS y a realizar backups de su sitio web.</p>
+<div class="section" id="step-1-create-your-first-website">
+<span id="o74378"></span><h2>Paso 1. Crear su primer sitio web<a class="headerlink" href="#step-1-create-your-first-website" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Para crear su primer sitio web, deberá seguir los siguientes pasos:</p>
+<ol class="arabic simple">
+<li>Registrar un nombre de dominio.</li>
+<li>Añadir un dominio a Plesk.</li>
+<li>Crear su sitio web.</li>
+</ol>
+<div class="section" id="registering-a-domain-name">
+<h3>Registro de un nombre de dominio<a class="headerlink" href="#registering-a-domain-name" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Considere el nombre de dominio como la dirección de su empresa. Sus clientes la usarán para encontrarle online, por lo que es importante escogerlo bien. La mejor opción es escoger un nombre de dominio corto, fácil de teclear y de recordar. Un ejemplo de nombre de dominio sería <em>ejemplo.com</em>. El registro de un nombre de dominio puede efectuarse a través de una de las muchas organizaciones denominadas registradores de dominios. Generalmente, los proveedores de hosting también ofrecen su ayuda a la hora de registrar nombres de dominio. Asimismo, es habitual que los servicios de hosting web incluyan ofertas de registro de nombres de dominio y viceversa.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Si es usted cliente de hosting web y registra el nombre de dominio a través de un proveedor de hosting, asegúrese de que se registra a su nombre. De lo contrario, puede que tengan problemas si en un futuro decide cambiar de proveedor de hosting.</p>
+</div>
+</div>
+<div class="section" id="adding-a-domain-in-plesk">
+<h3>Añadir un dominio a Plesk<a class="headerlink" href="#adding-a-domain-in-plesk" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Si es usted cliente de hosting web, probablemente su proveedor ya habrá añadido un dominio para usted. En caso contrario, contacte con su proveedor. Si es usted administrador web y utiliza la vista Power User, ya habrá creado su primera suscripción durante la configuración inicial de Plesk. La adición de un dominio en Plesk le permite cargar contenido, utilizar Presence Builder o instalar un sistema de administración de contenido.</p>
+<p>En el futuro, podrá añadir más dominios, pero por el momento será suficiente con su primer dominio.</p>
+</div>
+<div class="section" id="creating-your-website">
+<h3>Creación de su sitio web<a class="headerlink" href="#creating-your-website" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Existen tres formas de crear el contenido de su sitio web. Cada una de ellas tiene sus ventajas e inconvenientes. A continuación puede ver un resumen de cada una de ellas.</p>
+<ul class="simple">
+<li><strong>Contratar un diseñador profesional y cargar el contenido del sitio web.</strong> Esta opción garantiza que el resultado final será exactamente el deseado. De todos modos, debe tener en cuenta que se trata de la opción más cara. El diseñador web le proporcionará los archivos que deberá cargar en su cuenta de hosting. Puede hacerlo mediante FTP o utilizando el Administrador de archivos. , <a class="reference internal" href="#o74379"><span class="std std-ref">Haga clic aquí</span></a> si desea obtener indicaciones al respecto.</li>
+<li><strong>Uso de Presence Builder.</strong> La herramienta Presence Builder integrada en Plesk le permite crear sitios web mediante una interfaz web. Puede crear un sitio web de aspecto profesional en cuestión de minutos usando una de las plantillas proporcionadas. , <a class="reference internal" href="#o74380"><span class="std std-ref">Haga clic aquí</span></a> si desea obtener indicaciones al respecto.</li>
+<li><strong>Usar un sistema de gestión de contenido (CMS).</strong> Estos sistemas son aplicaciones de terceros que le permiten crear y mantener un sitio web. Son sumamente versátiles e incluyen un gran número de complementos opcionales. Los sistemas de gestión de contenido ofrecen un mayor nivel de personalización si los comparamos con Presence Builder, si bien requieren que el usuario disponga de más conocimientos técnicos. Haga clic <a class="reference internal" href="#o74381"><span class="std std-ref">aquí</span></a> si desea obtener información sobre cómo usar un sistema de gestión de contenido.</li>
+</ul>
+</div>
+<div class="section" id="option-a-upload-content">
+<span id="o74379"></span><h3>Option A. Cargar contenido<a class="headerlink" href="#option-a-upload-content" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Si ha codificado su sitio web usted mismo o ha recurrido a los servicios de un diseñador web, deberá cargar el contenido del sitio web en Plesk antes de que pueda estar disponible en Internet. Plesk le permite cargar el contenido utilizando FTP o bien el administrador de archivos. En las siguientes instrucciones se detallan ambos métodos. Escoja el que considere más apropiado.</p>
+<p class="rubric">Para publicar un sitio web usando FTP:</p>
+<ol class="arabic simple">
+<li>Descargue un programa de cliente FTP. Puede escoger el cliente FTP que desee. Si no sabe qué cliente escoger, puede optar por FileZilla:<ul>
+<li>Puede descargar FileZilla en: <a class="reference external" href="https://filezilla-project.org/download.php?type=client">https://filezilla-project.org/download.php?type=client</a></li>
+<li>Puede consultar la documentación de FileZilla en: <a class="reference external" href="https://wiki.filezilla-project.org/Documentation">https://wiki.filezilla-project.org/Documentation</a></li>
+</ul>
+</li>
+<li>Conéctese a su suscripción presente en el servidor mediante el cliente FTP. Para ello, necesitará la siguiente información:<ul>
+<li><strong>Dirección del servidor FTP.</strong> La dirección FTP debería <em>ser ftp://su-nombre-de-dominio.com</em>, donde su-nombre-de-dominio.com es la dirección de su sitio web en Internet.</li>
+<li><strong>Nombre de usuario FTP.</strong> Es exactamente el mismo que su nombre de usuario del sistema. Tenga en cuenta que el nombre de usuario del sistema puede no ser el mismo que el nombre de usuario que utiliza para acceder a Plesk. Para conocer cuál es su nombre de usuario de sistema, vaya a la pestaña <strong>Sitios web y dominios</strong> y haga clic en <strong>Acceso a hosting web</strong>. Lo encontrará bajo <strong>Nombre de usuario</strong>. Si lo desea, puede cambiar su nombre de usuario del sistema.</li>
+<li><strong>Contraseña FTP.</strong> Es exactamente el mismo que la contraseña de su nombre de usuario del sistema. Si no conoce su contraseña de usuario de sistema, vaya a la pestaña <strong>Sitios web y dominios</strong> y haga clic en <strong>Acceso a hosting web</strong>. Puede restablecer la contraseña bajo <strong>Contraseña</strong>.</li>
+</ul>
+</li>
+<li>Habilite el modo pasivo si existe un firewall activo. Si desea conocer cómo acceder al modo pasivo, consulte la documentación de su cliente FTP.</li>
+<li>Cargue los archivos y directorios de su sitio al directorio <code class="docutils literal notranslate"><span class="pre">httpdocs</span></code>. Si utiliza scripts CGI, sitúelos en el directorio <code class="docutils literal notranslate"><span class="pre">cgi-bin</span></code>.</li>
+</ol>
+<p class="rubric">Para publicar un sitio web usando el administrador de archivos:</p>
+<ol class="arabic">
+<li><p class="first">Vaya a <strong>Sitios web y dominios</strong> &gt; nombre del dominio &gt; <strong>Administrador de archivos</strong> y vaya al directorio <code class="docutils literal notranslate"><span class="pre">httpdocs</span></code>.</p>
+</li>
+<li><p class="first">Haga clic en el botón <a class="reference internal" href="_images/77101.png"><img alt="image-upload-button" src="_images/77101.png" style="width: 28.0px; height: 27.0px;" /></a> y:</p>
+<ul>
+<li><p class="first">Si solo desea cargar un único archivo, haga clic en <strong>Cargar archivo</strong>, localícelo y seleccione el archivo que desea cargar.</p>
+</li>
+<li><p class="first">Para cargar un único archivo, múltiples archivos o un directorio que incluye archivos, haga clic en <strong>Cargar directorio</strong> y arrastre los archivos o directorios a la casilla con líneas discontinuas.</p>
+</li>
+<li><p class="first">Para cargar un archivo que no está en su ordenador sino en otro sitio web o en un servidor FTP, haga clic en <strong>Importar archivo mediante URL</strong>, indique la URL del archivo y haga clic en <strong>Importar</strong>. Por ejemplo, la URL puede ser <code class="docutils literal notranslate"><span class="pre">https://example.com/image.png</span></code> o <code class="docutils literal notranslate"><span class="pre">ftps://user:password&#64;example.com/example.tar</span></code>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">El administrador de archivos soporta los siguientes protocolos para la importación de archivos: HTTP, HTTPS, FTP y FTPS. En función del protocolo usado, el nombre de usuario y la contraseña en la ruta de la URL puede ser opcional o bien obligatorio.</p>
+</div>
+</li>
+</ul>
+<p><a class="reference internal" href="_images/77044.png"><img alt="image-77044.png" src="_images/77044.png" style="width: 1122px; height: 535px;" /></a></p>
+<p>Ha cargado el archivo. Si se trataba de un archivo comprimido, todavía debe efectuar dos pasos más.</p>
+</li>
+<li><p class="first">Haga clic en la fila correspondiente al archivo comprimido y haga clic en <strong>Extraer archivos</strong>. Si el directorio incluye archivos cuyos nombres coinciden con archivos presentes en el archivo comprimido, seleccione la casilla «Reemplazar archivos existentes». Los archivos descomprimidos reemplazarán aquellos presentes en el directorio.</p>
+</li>
+<li><p class="first">Haga clic en <strong>ACEPTAR</strong>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">El administrador de archivos puede extraer archivos en los siguientes formatos: ZIP, RAR, TAR, TGZ y TAR.GZ.</p>
+</div>
+</li>
+</ol>
+<p>Es posible que el sitio web que ha cargado requiera de una base de datos para operar. <a class="reference internal" href="#o74382"><span class="std std-ref">Descubra cómo crear una base de datos</span></a>.</p>
+</div>
+<div class="section" id="option-b-create-your-website-in-presence-builder">
+<span id="o74380"></span><h3>Opción B. Crear su sitio web con Presence Builder<a class="headerlink" href="#option-b-create-your-website-in-presence-builder" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Para crear un sitio web utilizando Presence Builder, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Presence Builder</strong> y haga clic en <strong>Crear sitio</strong>.</p>
+<p><a class="reference internal" href="_images/77045.png"><img alt="image-77045.png" src="_images/77045.png" style="width: 1013px; height: 471px;" /></a></p>
+<p>Encontrará más información sobre la creación y edición de sitios web con Presence Builder en <a class="reference external" href="/en-US/obsidian/customer-guide/70317/" title="(en Customer's Guide versión onyx)"><span class="xref std std-doc">http://docs.plesk.com/current/customer-guide/</span></a>.</p>
+<p>Al crear su sitio web en Presence Builder no necesitará crear ninguna base de datos. Proceda al <a class="reference internal" href="#o74389"><span class="std std-ref">siguiente paso</span></a> para aprender a crear una cuenta de correo en Plesk.</p>
+</div>
+<div class="section" id="option-c-install-a-content-management-system">
+<span id="o74381"></span><h3>Opción C. Instalar un sistema de gestión de contenido<a class="headerlink" href="#option-c-install-a-content-management-system" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Para crear un sitio web mediante un <em>sistema de gestión de contenido</em> (o <em>CMS</em>, por sus siglas en inglés), vaya a <strong>Aplicaciones</strong> &gt; <strong>Instalar</strong>.</p>
+<p><a class="reference internal" href="_images/77046.png"><img alt="image-77046.png" src="_images/77046.png" style="width: 1001px; height: 706px;" /></a></p>
+<p>Tenga en cuenta que al instalar un CMS siguiendo las instrucciones arriba mencionadas se creará una base de datos para su sitio web de forma automática. Proceda al <a class="reference internal" href="#o74389"><span class="std std-ref">siguiente paso</span></a> para aprender a crear una cuenta de correo en Plesk.</p>
+</div>
+</div>
+<div class="section" id="step-2-create-a-database">
+<span id="o74382"></span><h2>Paso 2. Crear una base de datos<a class="headerlink" href="#step-2-create-a-database" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Las bases de datos son estructuras relacionales utilizadas para el almacenamiento de datos. Constituyen un elemento indispensable para el hosting web moderno y la mayoría de los CMS más populares requieren de una para su funcionamiento. Plesk ofrece soporte para servidores de bases de datos MySQL, MSSQL y PostgreSQL y le permite añadir, eliminar y acceder a bases de datos, así como administrar a los usuarios de las mismas.</p>
+<p>Si su sitio web no necesita una base de datos, proceda al <a class="reference internal" href="#o74389"><span class="std std-ref">siguiente paso</span></a> para aprender a crear una cuenta de correo en Plesk.</p>
+<p class="rubric">Si desea crear una base de datos y un usuario de base de datos:</p>
+<p>Vaya a <strong>Bases de datos</strong> &gt; <strong>Añadir base de datos</strong>.</p>
+<p><a class="reference internal" href="_images/77047.png"><img alt="image-77047.png" src="_images/77047.png" style="width: 1004px; height: 457px;" /></a></p>
+</div>
+<div class="section" id="step-3-create-a-mail-account">
+<span id="o74389"></span><h2>Paso 3. Crear una cuenta de correo<a class="headerlink" href="#step-3-create-a-mail-account" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El servicio de correo permite a los usuarios de Internet enviarse mensajes de email. Plesk puede realizar las funciones de servidor de correo. Asimismo, le permite crear cuentas de correo y administrarlas, así como realizar varias de las operaciones más comunes relacionadas con este servicio. Estas operaciones pueden ser cambiar la contraseña de una cuenta de correo, habilitar las respuestas automáticas, etc.</p>
+<p>Si no necesita crear una cuenta de correo, proceda al <a class="reference internal" href="#o74390"><span class="std std-ref">siguiente paso</span></a> para aprender a añadir un registro DNS personalizado en Plesk.</p>
+<p>Para crear una cuenta de coreo, vaya a <strong>Correo</strong> &gt; <strong>Crear dirección de email</strong>.</p>
+<p><a class="reference internal" href="_images/77099.png"><img alt="image-77099.png" src="_images/77099.png" style="width: 1018px; height: 424px;" /></a></p>
+</div>
+<div class="section" id="step-4-add-a-custom-dns-record">
+<span id="o74390"></span><h2>Paso 4. Añadir un registro DNS personalizado<a class="headerlink" href="#step-4-add-a-custom-dns-record" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los registros DNS facilitan la traducción del nombre de dominio y ayudan a los visitantes a encontrar su sitio web. Cuando se crea un dominio en Plesk, se añaden automáticamente todos los registros DNS necesarios. No obstante, Plesk le ofrece la posibilidad de añadir registros DNS personalizados, tal como se detalla a continuación.</p>
+<p>Si no necesita crear un registro DNS personalizado, proceda al <a class="reference internal" href="#o74391"><span class="std std-ref">siguiente paso</span></a> para aprender a realizar un backup de su sitio web.</p>
+<p>Para añadir un registro DNS personalizado a la zona DNS del dominio, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración DNS</strong>&gt; <strong>Añadir registro</strong>.</p>
+<p><a class="reference internal" href="_images/77100.png"><img alt="image-77100.png" src="_images/77100.png" style="width: 1013px; height: 498px;" /></a></p>
+</div>
+<div class="section" id="step-5-back-up-your-website">
+<span id="o74391"></span><h2>Paso 5. Realizar un backup de su sitio web<a class="headerlink" href="#step-5-back-up-your-website" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Siempre es recomendable mantener una copia de seguridad de sus sitios web, por si su configuración o contenido se dañara o perdiera.</p>
+<p>Si no necesita realizar un backup de su sitio web, proceda al <a class="reference internal" href="#o74392"><span class="std std-ref">siguiente paso</span></a> para aprender a cambiar su contraseña y cerrar sesión en Plesk.</p>
+<p>Para acceder a la función de backup, haga lo siguiente:</p>
+<ul>
+<li><p class="first">Si es cliente de hosting, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Administrador de backups</strong> &gt; <strong>Copiar</strong>.</p>
+</li>
+<li><p class="first">Si es administrador del servidor y está utilizando la vista Power User, vaya a <strong>Administrador de backups</strong>&gt; <strong>Copiar</strong>.</p>
+<p><a class="reference internal" href="_images/77051.png"><img alt="image-77051.png" src="_images/77051.png" style="width: 1016px; height: 333px;" /></a></p>
+</li>
+</ul>
+</div>
+<div class="section" id="step-6-change-your-password-and-log-out">
+<span id="o74392"></span><h2>Paso 6. Cambiar su contraseña y cerrar sesión<a class="headerlink" href="#step-6-change-your-password-and-log-out" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Si es cliente de hosting web, su proveedor de hosting probablemente le haya configurado una contraseña para acceder a Plesk. Si desea cambiarla, pase el puntero del ratón por encima de su nombre de usuario, en la parte superior de la página, y haga clic en la opción <strong>Editar perfil</strong>.</p>
+<p><a class="reference internal" href="_images/77052.png"><img alt="image-77052.png" src="_images/77052.png" style="width: 1016px; height: 195px;" /></a></p>
+<p>Ahora que ha realizado todas las tareas deseadas, es momento de salir de Plesk. Pase el puntero del ratón por encima de su nombre de usuario, en la parte superior de la página, y haga clic en la opción <strong>Cerrar sesión</strong>.</p>
+<p><a class="reference internal" href="_images/77053.png"><img alt="image-77053.png" src="_images/77053.png" style="width: 1015px; height: 247px;" /></a></p>
+<p>Aquí concluye nuestro tutorial. Esperamos que haya sido de utilidad y le animamos a seguir explorando Plesk y aprendiendo las formas en las que le facilitará la administración de su cuenta de hosting web. Los siguientes recursos le resultarán útiles:</p>
+<ul class="simple">
+<li>La sección <a class="reference internal" href="74377.htm"><span class="doc">Explicación sobre las funciones de Plesk</span></a> de esta guía complementa al tutorial ampliando los temas que este cubre.</li>
+<li>En la <a class="reference external" href="/en-US/obsidian/customer-guide/#" title="(en Customer's Guide versión onyx)"><span class="xref std std-doc">Guía del cliente de Plesk</span></a> encontrará información exhaustiva sobre todas las funciones de Plesk disponibles para los clientes de hosting web.</li>
+<li>En la <a class="reference external" href="/en-US/obsidian/administrator-guide/#" title="(en Administrator's Guide versión obsidian)"><span class="xref std std-doc">Guía del administrador de Plesk</span></a> encontrará amplia información sobre todas las funciones de Plesk disponibles para los administradores de servidores.</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright Plesk
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'obsidian',
+              LANGUAGE:'es',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.htm',
+              HAS_SOURCE:  false,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

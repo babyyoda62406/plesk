@@ -1,0 +1,248 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Administración de registros DNS</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="author" title="Sobre este documento" href="about.htm" />
+    <link rel="index" title="Índice" href="genindex.htm" />
+    <link rel="search" title="Búsqueda" href="search.htm" />
+    <link rel="next" title="Administración de aplicaciones web" href="74405.htm" />
+    <link rel="prev" title="Administración de cuentas de correo" href="74403.htm" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.htm" class="icon icon-home"> Getting Started with Managing Websites in Plesk
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.htm" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about.htm">Antes de empezar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="74372.htm">Introducción a Plesk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="74376.htm">Tutorial de Plesk</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="74377.htm">Explicación sobre las funciones de Plesk</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="74400.htm">Administración de su cuenta de usuario</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74401.htm">Administración de hosting web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74402.htm">Carga de contenido</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74403.htm">Administración de cuentas de correo</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Administración de registros DNS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74405.htm">Administración de aplicaciones web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74406.htm">Visualización de estadísticas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74407.htm">Administración de backups</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.htm">Getting Started with Managing Websites in Plesk</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.htm">Docs</a> &raquo;</li>
+        
+          <li><a href="74377.htm">Explicación sobre las funciones de Plesk</a> &raquo;</li>
+        
+      <li>Administración de registros DNS</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="managing-dns-records">
+<h1>Administración de registros DNS<a class="headerlink" href="#managing-dns-records" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Un nombre de dominio es una dirección de Internet en formato legible por personas y que corresponde a un sitio web, al cual se puede acceder mediante dicho nombre de dominio. La traducción de nombres legibles por personas a nombres legibles por máquinas la lleva a cabo un sistema de nombres de dominio, o DNS. Es muy importante que la configuración DNS de sus sitios web sea correcta, ya que de lo contrario pueden producirse errores en el funcionamiento de los servicios. Por ejemplo, puede que su dominio deje de estar disponible o que el servicio de correo no pueda llegar al servidor de correo. Plesk puede hacer las funciones de servidor de nombres principal o secundario de sus dominios. Si bien la configuración DNS se ajusta automáticamente, puede cambiarla desde la interfaz cuando desee. Si el servicio DNS para sus dominios procede de servidores de nombre de terceros, puede desactivar el servicio DNS de Plesk.</p>
+<div class="section" id="adding-and-modifying-dns-records">
+<span id="o74428"></span><h2>Adición y modificación de registros DNS<a class="headerlink" href="#adding-and-modifying-dns-records" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">esta sección va dirigida a usuarios avanzados. Una configuración DNS incorrecta puede afectar negativamente a su sitio web y a la accesibilidad al correo.</p>
+</div>
+<p>Para cada nombre de dominio nuevo, Plesk crea una zona DNS de forma automática de acuerdo con los parámetros configurados por su proveedor de servicios. Los nombres de dominio deberían funcionar correctamente con la configuración automática. No obstante, si utiliza un servidor NS de Plesk y desea realizar modificaciones en la zona del nombre de dominio, podrá hacerlo desde el panel de control.</p>
+<p>Si desea ver los registros de recursos de una zona DNS de un dominio determinado, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración DNS</strong>.</p>
+<p><a class="reference internal" href="_images/77086.png"><img alt="image-77086.png" src="_images/77086.png" style="width: 1136px; height: 645px;" /></a></p>
+<p>Para añadir un registro de recursos a la zona, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración DNS</strong> y haga clic en <strong>Añadir registro</strong>.</p>
+<p><a class="reference internal" href="_images/77088.png"><img alt="image-77088.png" src="_images/77088.png" style="width: 1013px; height: 498px;" /></a></p>
+<p>Si desea modificar las propiedades de un registro de recursos, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración DNS</strong> y haga clic en el registro.</p>
+<p>Además de los registros de recurso descritos, también existe un registro SOA (Start of Authority). Este registro indica que este servidor de nombres DNS es el responsable de la zona DNS del dominio. También contiene la configuración que afecta a la propagación de la información acerca de la zona DNS en el sistema de nombres de dominio (DNS).</p>
+</div>
+<div class="section" id="using-external-dns-servers">
+<span id="o74429"></span><h2>Uso de servidores DNS externos<a class="headerlink" href="#using-external-dns-servers" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Si aloja sitios web en su cuenta y no desea usar Plesk como su servidor DNS principal, dispone de las siguientes opciones:</p>
+<ul class="simple">
+<li>Utilizar el servidor de nombres de Plesk como servidor de nombres secundario. Escoja esta opción si dispone de un servidor de nombres independiente que hace las funciones de servidor de nombres principal para sus sitios web.</li>
+<li>Desactivar el DNS de su dominio en Plesk. Escoja esta opción si dispone de servidores de nombres externos principales y secundarios autoritativos para sus sitios web.</li>
+</ul>
+<p>Para cambiar el servidor DNS de Plesk a un servidor de nombres secundario, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración DNS</strong> y haga clic en <strong>Cambiar a secundario</strong>.</p>
+<p>Para revertir el servidor DNS de Plesk al servidor de nombres principal, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración DNS</strong> y haga clic en <strong>Cambiar a principal</strong>.</p>
+<p>Para desactivar el servicio DNS de Plesk de un sitio servido por servidores de nombres externos, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración DNS</strong> y haga clic en <strong>Desactivar</strong>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright Plesk
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'obsidian',
+              LANGUAGE:'es',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.htm',
+              HAS_SOURCE:  false,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

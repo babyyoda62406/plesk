@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Introducción a la administración de sitios web con Plesk</title>
+  <title>Administración de backups</title>
   
 
   
@@ -29,7 +29,7 @@
     <link rel="author" title="Sobre este documento" href="about.htm" />
     <link rel="index" title="Índice" href="genindex.htm" />
     <link rel="search" title="Búsqueda" href="search.htm" />
-    <link rel="next" title="Antes de empezar" href="about.htm" /> 
+    <link rel="prev" title="Visualización de estadísticas" href="74406.htm" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -48,7 +48,7 @@
           
 
           
-            <a href="#" class="icon icon-home"> Getting Started with Managing Websites in Plesk
+            <a href="index.htm" class="icon icon-home"> Getting Started with Managing Websites in Plesk
           
 
           
@@ -75,11 +75,11 @@
               
             
             
-              <ul>
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="about.htm">Antes de empezar</a></li>
 <li class="toctree-l1"><a class="reference internal" href="74372.htm">Introducción a Plesk</a></li>
 <li class="toctree-l1"><a class="reference internal" href="74376.htm">Tutorial de Plesk</a></li>
-<li class="toctree-l1"><a class="reference internal" href="74377.htm">Explicación sobre las funciones de Plesk</a><ul>
+<li class="toctree-l1 current"><a class="reference internal" href="74377.htm">Explicación sobre las funciones de Plesk</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="74400.htm">Administración de su cuenta de usuario</a></li>
 <li class="toctree-l2"><a class="reference internal" href="74401.htm">Administración de hosting web</a></li>
 <li class="toctree-l2"><a class="reference internal" href="74402.htm">Carga de contenido</a></li>
@@ -87,7 +87,7 @@
 <li class="toctree-l2"><a class="reference internal" href="74404.htm">Administración de registros DNS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="74405.htm">Administración de aplicaciones web</a></li>
 <li class="toctree-l2"><a class="reference internal" href="74406.htm">Visualización de estadísticas</a></li>
-<li class="toctree-l2"><a class="reference internal" href="74407.htm">Administración de backups</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Administración de backups</a></li>
 </ul>
 </li>
 </ul>
@@ -104,7 +104,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">Getting Started with Managing Websites in Plesk</a>
+          <a href="index.htm">Getting Started with Managing Websites in Plesk</a>
         
       </nav>
 
@@ -133,9 +133,11 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="#">Docs</a> &raquo;</li>
+      <li><a href="index.htm">Docs</a> &raquo;</li>
         
-      <li>Introducción a la administración de sitios web con Plesk</li>
+          <li><a href="74377.htm">Explicación sobre las funciones de Plesk</a> &raquo;</li>
+        
+      <li>Administración de backups</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -152,9 +154,24 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="getting-started-with-managing-websites-in-plesk">
-<h1>Introducción a la administración de sitios web con Plesk<a class="headerlink" href="#getting-started-with-managing-websites-in-plesk" title="Enlazar permanentemente con este título">¶</a></h1>
-<div class="toctree-wrapper compound">
+  <div class="section" id="managing-backups">
+<h1>Administración de backups<a class="headerlink" href="#managing-backups" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Es recomendable guardar siempre copias del contenido de su sitio web para evitar su pérdida por alguna incidencia o debido a ataques malintencionados. Plesk facilita la creación de copias de seguridad con la función de backup y de restauración. Podrá crear backups de la configuración y el contenido (contenido del sitio web, cuentas de correo, bases de datos, etc.) y restaurar dichos datos si fuera necesario. Asimismo, puede descargar archivos de backup creados en Plesk y cargarlos, incluso aunque se hayan creado en versiones anteriores de Plesk. Los backups creados pueden almacenarse localmente o en un almacenamiento FTP remoto.</p>
+<div class="section" id="backing-up-account-and-websites">
+<span id="o74430"></span><h2>Copia de cuentas y sitios web<a class="headerlink" href="#backing-up-account-and-websites" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Si desea copiar los datos relativos a su cuenta y a todas sus suscripciones, vaya a <strong>Cuenta</strong> &gt; <strong>Realizar backup de sitios web</strong>.</p>
+<p><a class="reference internal" href="_images/77094.png"><img alt="image-77094.png" src="_images/77094.png" style="width: 1139px; height: 441px;" /></a></p>
+<p>Para crear un backup de los sitios web relacionados con la suscripción seleccionada, vaya a <strong>Cuenta</strong> &gt; <strong>Realizar backup de sitios web</strong>.</p>
+<p><a class="reference internal" href="_images/77095.png"><img alt="image-77095.png" src="_images/77095.png" style="width: 1139px; height: 441px;" /></a></p>
+<p>A continuación, haga clic en <strong>Copiar</strong> para crear un nuevo backup.</p>
+<p><a class="reference internal" href="_images/77096.png"><img alt="image-77096.png" src="_images/77096.png" style="width: 1139px; height: 242px;" /></a></p>
+</div>
+<div class="section" id="restoring-backups">
+<span id="o74431"></span><h2>Restauración de backups<a class="headerlink" href="#restoring-backups" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Solo puede restaurar backups realizados en Plesk Onyx 17.0 y versiones posteriores.</p>
+<p>Si lo desea, puede seleccionar qué objetos quiere restaurar de un archivo de backup. Puede restaurar un determinado sitio, archivo, base de datos, etc. De esta forma puede restaurar únicamente los objetos que necesite, sin tener que sobrescribir otros objetos. Por ejemplo, si únicamente desea restaurar la zona DNS de un dominio (como <code class="docutils literal notranslate"><span class="pre">ejemplo.com</span></code>), no es necesario restaurar las configuraciones del resto de dominios.</p>
+<p>Si desea restaurar un archivo de backup, haga clic en <strong>Cuenta</strong> &gt; <strong>Realizar backup de sitios web</strong> o bien <strong>Sitios web y dominio</strong> &gt; <strong>Administrador de backups</strong>. A continuación, haga clic en el backup correspondiente, indique qué elementos desea restaurar y haga clic en <strong>Restaurar</strong>.</p>
+<p><a class="reference internal" href="_images/77097.png"><img alt="image-77097.png" src="_images/77097.png" style="width: 1121px; height: 657px;" /></a></p>
 </div>
 </div>
 

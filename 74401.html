@@ -1,0 +1,397 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Administración de hosting web</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="author" title="Sobre este documento" href="about.htm" />
+    <link rel="index" title="Índice" href="genindex.htm" />
+    <link rel="search" title="Búsqueda" href="search.htm" />
+    <link rel="next" title="Carga de contenido" href="74402.htm" />
+    <link rel="prev" title="Administración de su cuenta de usuario" href="74400.htm" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.htm" class="icon icon-home"> Getting Started with Managing Websites in Plesk
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.htm" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about.htm">Antes de empezar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="74372.htm">Introducción a Plesk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="74376.htm">Tutorial de Plesk</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="74377.htm">Explicación sobre las funciones de Plesk</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="74400.htm">Administración de su cuenta de usuario</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Administración de hosting web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74402.htm">Carga de contenido</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74403.htm">Administración de cuentas de correo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74404.htm">Administración de registros DNS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74405.htm">Administración de aplicaciones web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74406.htm">Visualización de estadísticas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74407.htm">Administración de backups</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.htm">Getting Started with Managing Websites in Plesk</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.htm">Docs</a> &raquo;</li>
+        
+          <li><a href="74377.htm">Explicación sobre las funciones de Plesk</a> &raquo;</li>
+        
+      <li>Administración de hosting web</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="managing-web-hosting">
+<h1>Administración de hosting web<a class="headerlink" href="#managing-web-hosting" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="adding-domains">
+<span id="o74413"></span><h2>Adición de dominios<a class="headerlink" href="#adding-domains" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Si dispone de los permisos, puede crear más de un dominio en una misma suscripción. El nuevo dominio que añada compartirá los recursos de la suscripción con el resto de dominios. Por lo demás, no obstante, el dominio recién creado será independiente del principal, es decir, dispondrá de su propio hosting web y configuración DNS, de sus propias bases de datos y cuentas de correo, etc.</p>
+<p>La adición de un nuevo dominio puede ser de utilidad en los siguientes casos:</p>
+<ul class="simple">
+<li>Cuando desee crear un sitio web que no esté relacionado con los otros sitios web que ya tiene creados y que posea nombre, contenido web y cuentas de correo propios, etc. Tenga en cuenta que en este escenario, deberá registrar otro nombre de dominio de segundo nivel, a no ser que ya disponga de uno. Un nombre de dominio de segundo nivel consta de un nombre propio y un sufijo de dominio de nivel superior (llamado TLD, por sus siglas en inglés), como .com o .net. <em>ejemplo.com</em> es un ejemplo de dominio de segundo nivel. Puede registrar un nombre de dominio a través de su proveedor. Asimismo, puede adquirir uno de un registrador de dominios de su elección.</li>
+<li>Cuando desea transferir un dominio ya alojado en un proveedor distinto. En este caso, posiblemente deba contactar con su registrador de dominios para realizar el cambio de los servidores de nombre autoritativos por el nombre de dominio del sitio web al que desea transferir los servidores de nombre de Plesk. Deberá también transferir el contenido del sitio web; puede cargarlo mediante FTP o el administrador de archivos, tal como se describe en la sección <strong>Carga de contenido</strong>.</li>
+<li>Si desea configurar un sitio web que redirija a los visitantes a otro sitio. Algunas de las razones por las que podría querer configurar un sitio de estas características se detallan en la sección <strong>Adición de alias de dominio</strong>. Para el alias de dominio necesitará un nombre de dominio independiente.</li>
+</ul>
+<p>Para añadir un dominio nuevo, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Añadir dominio</strong>.</p>
+<p><a class="reference internal" href="_images/77058.png"><img alt="image-77058.png" src="_images/77058.png" style="width: 1049px; height: 514px;" /></a></p>
+</div>
+<div class="section" id="adding-subdomains">
+<span id="o74414"></span><h2>Adición de subdominios<a class="headerlink" href="#adding-subdomains" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Si dispone de los permisos necesarios, podrá crear uno o más subdominios o dominios de tercer nivel para cada uno de sus dominios. Los subdominios comparten todos los recursos de la suscripción con el resto de dominios y subdominios que dependan de ella. Sin embargo, cada subdominio tiene hosting web y configuración DNS propios.</p>
+<p>La adición de un nuevo subdominio puede ser de utilidad en los siguientes casos:</p>
+<ul class="simple">
+<li>Cuando desea organizar la estructura de su sitio web de forma lógica. Por ejemplo, puede mostrar la información sobre su empresa en <em>info.ejemplo.com</em> o tener su tienda web a disposición de los clientes en <em>tienda.ejemplo.com</em>.</li>
+<li>Cuando desea alojar un gran número de sitios web sencillos y no quiere adquirir un nombre de dominio separado para cada uno de ellos. Por ejemplo, puede alojar sitios web personales con direcciones como <em>juanperez.ejemplo.com</em> y <em>anagarcia.ejemplo.com</em>.</li>
+</ul>
+<p>Para añadir un subdominio, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Añadir subdominio</strong>.</p>
+<p><a class="reference internal" href="_images/77059.png"><img alt="image-77059.png" src="_images/77059.png" style="width: 1049px; height: 514px;" /></a></p>
+</div>
+<div class="section" id="adding-domain-aliases">
+<span id="o74415"></span><h2>Adición de alias de dominio<a class="headerlink" href="#adding-domain-aliases" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Si dispone de los permisos en su suscripción, puede crear uno o más alias de dominio. Los alias de dominio no tienen contenido propio, sino que redirigen a un sitio web determinado cuando reciben visitas. Tenga en cuenta que para el alias de dominio deberá registrar otro nombre de dominio de segundo nivel, a no ser que ya disponga de uno. Puede registrar un nombre de dominio a través de su proveedor. Asimismo, puede adquirir uno de un registrador de dominios de su elección.</p>
+<p>La adición de un nuevo alias de dominio puede ser de utilidad en los siguientes casos:</p>
+<ul class="simple">
+<li>Cuando desea asegurarse de que los visitantes encuentren su página, independientemente del TLD que utilicen. Así, puede registrar <em>ejemplo.net</em> y <em>ejemplo.org,</em> y utilizarlos como alias de dominio que apunten a su sitio web <em>ejemplo.com</em>.</li>
+<li>Cuando desea asegurarse de que aquellos usuarios que no escriban correctamente su nombre de dominio lo puedan encontrar de todos modos. Así, puede registrar <em>ejemplo.com</em> y utilizarlo como alias de dominio para que apunte a su sitio web <em>ejemplo.com</em>.</li>
+<li>Cuando desea cambiar el nombre de dominio de su sitio web y a la vez quiere que los usuarios que visiten el dominio antiguo puedan encontrar el nuevo. De ese modo, podría querer cambiar el nombre de dominio de su sitio web de <em>ejemplo.com</em> a <em>otroejemplo.com.</em> Puede configurar el nombre <em>ejemplo.com</em> como alias de dominio que apunte a su nuevo sitio web <em>otroejemplo.com</em>.</li>
+</ul>
+<p>Para añadir un alias de dominio nuevo, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Añadir alias de dominio</strong>.</p>
+<p><a class="reference internal" href="_images/77060.png"><img alt="image-77060.png" src="_images/77060.png" style="width: 1049px; height: 514px;" /></a></p>
+</div>
+<div class="section" id="setting-up-custom-error-pages">
+<span id="o74417"></span><h2>Creación de páginas de error personalizadas<a class="headerlink" href="#setting-up-custom-error-pages" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Cuando el servidor web encuentra un error que impide que se muestre correctamente la página de su sitio web que ha solicitado un visitante, aparece una página de error especial en la que se indica el código de error en cuestión. Por omisión, dichas páginas suelen ser genéricas y tal vez no lo suficientemente informativas. Si lo desea, puede sustituir estas páginas de error estándar por unas personalizadas.</p>
+<div class="section" id="setting-up-custom-error-pages-on-linux">
+<h3>Creación de páginas de error personalizadas en Linux<a class="headerlink" href="#setting-up-custom-error-pages-on-linux" title="Enlazar permanentemente con este título">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">Vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración de hosting</strong>.</p>
+</li>
+<li><p class="first">Seleccione la casilla <strong>Documentos de error personalizados</strong> y haga clic en <strong>ACEPTAR</strong>.</p>
+<p><a class="reference internal" href="_images/77061.png"><img alt="image-77061.png" src="_images/77061.png" style="width: 1059px; height: 344px;" /></a></p>
+</li>
+<li><p class="first">Conéctese a su cuenta FTP y vaya al directorio <code class="docutils literal notranslate"><span class="pre">error_docs</span></code>.</p>
+</li>
+<li><p class="first">Edite o reemplace los archivos correspondientes. Compruebe que mantiene los nombres correctos del archivo:</p>
+<ul class="simple">
+<li>400 Bad File Request - bad_request.html</li>
+<li>401 Unauthorized - unauthorized.html</li>
+<li>403 Forbidden/Access denied - forbidden.html</li>
+<li>404 Not Found - not_found.html</li>
+<li>405 Method Not Allowed - method_not_allowed.html</li>
+<li>406 Not Acceptable - not_acceptable.html</li>
+<li>407 Proxy Authentication Required -
+proxy_authentication_required.html</li>
+<li>412 Precondition Failed - precondition_failed.html</li>
+<li>414 Request-URI Too Long - request-uri_too_long.html</li>
+<li>415 Unsupported Media Type - unsupported_media_type.html</li>
+<li>500 Internal Server Error - internal_server_error.html</li>
+<li>501 Not Implemented - not_implemented.html</li>
+<li>502 Bad Gateway - bad_gateway.html</li>
+<li>503 Service Temporarily Unavailable - maintenance.html</li>
+</ul>
+</li>
+</ol>
+<p>Una vez reiniciado el servidor web, empezará a usar sus documentos de error.</p>
+</div>
+<div class="section" id="setting-up-custom-error-pages-on-windows">
+<h3>Creación de páginas de error personalizadas en Windows<a class="headerlink" href="#setting-up-custom-error-pages-on-windows" title="Enlazar permanentemente con este título">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">Vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración de hosting</strong>.</p>
+<p>Seleccione la casilla <strong>Documentos de error personalizados</strong> y haga clic en <strong>ACEPTAR</strong>.</p>
+<p><a class="reference internal" href="_images/77062.png"><img alt="image-77062.png" src="_images/77062.png" style="width: 1002px; height: 311px;" /></a></p>
+</li>
+<li><p class="first">Haga clic en <strong>Directorios virtuales</strong> y abra la pestaña <strong>Documentos de error</strong>. Aparecerá una lista con los documentos de error del directorio web raíz. Estos se utilizan para todas las páginas web del sitio seleccionado. Si desea personalizar páginas de error para un directorio virtual determinado, primero vaya a dicho directorio.</p>
+</li>
+<li><p class="first">Haga clic en el documento de error que desea modificar. Dispone de las siguientes opciones:</p>
+<ul>
+<li><p class="first">Si desea usar el documento predeterminado de IIS para esta página de error, seleccione <strong>Predeterminado</strong> en el menú <strong>Tipo</strong>.</p>
+</li>
+<li><p class="first">Si desea usar un documento HTML personalizado del directorio <code class="docutils literal notranslate"><span class="pre">error_docs</span></code> del directorio del host virtual del dominio, seleccione <strong>Archivo</strong> en el menú <strong>Tipo</strong> e indique el nombre del archivo en el campo <strong>Ubicación</strong>.</p>
+</li>
+<li><p class="first">Si desea usar un documento HTML personalizado presente en otro directorio que no sea <code class="docutils literal notranslate"><span class="pre">error_docs</span></code>, seleccione <strong>URL</strong> en el menú <strong>Tipo</strong> e indique la ruta al documento en el campo <strong>Ubicación</strong>. La ruta debe hacer referencia a la raíz del host virtual (es decir, la carpeta <code class="docutils literal notranslate"><span class="pre">%plesk_vhosts%\&lt;domain_name&gt;\httpdocs</span></code>).</p>
+<p>Por ejemplo, ha creado un archivo llamado <code class="docutils literal notranslate"><span class="pre">forbidden_403_1.html</span></code> y lo ha guardado en el directorio <code class="docutils literal notranslate"><span class="pre">my_errors</span></code> ubicado en <code class="docutils literal notranslate"><span class="pre">httpdocs</span></code>. Para utilizar este archivo como documento de error, deberá introducir la siguiente ruta en el campo <strong>Ubicación</strong>: <code class="docutils literal notranslate"><span class="pre">/my_errors/forbidden_403_1.html</span></code>.</p>
+</li>
+</ul>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">para cargar su documento de error personalizado al servidor, puede usar FTP o el administrador de archivos de Plesk. Por omisión, todos los documentos de error se guardan en el directorio <code class="docutils literal notranslate"><span class="pre">%plesk_vhosts%\&lt;domain_name&gt;\error_docs\</span></code>.</p>
+</div>
+<p>Una vez reiniciado el servidor web, empezará a usar sus documentos de error.</p>
+</div>
+</div>
+<div class="section" id="setting-up-http-301-redirection">
+<span id="o74418"></span><h2>Configuración del redireccionamiento HTTP 301<a class="headerlink" href="#setting-up-http-301-redirection" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Plesk ofrece dos formas de configurar el redireccionamiento HTTP 301, compatible con motores de búsqueda, de un sitio web a otro. De esta forma puede conservar los ránkings del motor de búsqueda en el sitio web al que se redirige a los visitantes. Así, si configura el redireccionamiento HTTP 301 de <em>ejemplo.com</em> a <em>www.ejemplo.com</em>, los motores de búsqueda considerarán ambas versiones (con «www» y sin ellas) como si fueran el mismo sitio. En cambio, si utiliza el redireccionamiento HTTP 302, las dos versiones se considerarán dos sitios web distintos. Como resultado, los ránkings se dividirán entre ambas.</p>
+<p>Para configurar el redireccionamiento HTTP 301 mediante alias de dominio, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Añadir alias de dominio</strong>.</p>
+<p><a class="reference internal" href="_images/77063.png"><img alt="image-77063.png" src="_images/77063.png" style="width: 1049px; height: 514px;" /></a></p>
+<p>Para configurar el redireccionamiento HTTP 301 mediante hosting con redireccionamiento, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Añadir dominio</strong>.</p>
+<p><a class="reference internal" href="_images/77064.png"><img alt="image-77064.png" src="_images/77064.png" style="width: 1049px; height: 514px;" /></a></p>
+</div>
+<div class="section" id="configuring-the-preferred-domain">
+<span id="o74419"></span><h2>Configuración del dominio preferido<a class="headerlink" href="#configuring-the-preferred-domain" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Como norma, cualquier sitio web está disponible indicando su URL tanto con el prefijo www (como en <em>www.ejemplo.com</em>) como sin él (como <em>ejemplo.com</em>). Le recomendamos que escoja una y siempre redirija todas las visitas hacia la otra. Generalmente, se suele escoger la versión sin el prefijo. Como ejemplo, si usted configura la versión sin el prefijo www (<em>ejemplo.com</em>) como dominio preferido, el visitante será redirigido a <em>ejemplo.com</em> incluso aunque escriba <em>www.ejemplo.com</em> en la barra de direcciones del navegador.</p>
+<p>Para configurar o desactivar el dominio preferido, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración de hosting</strong>.</p>
+<p><a class="reference internal" href="_images/77065.png"><img alt="image-77065.png" src="_images/77065.png" style="width: 1067px; height: 470px;" /></a></p>
+<p>Plesk usa el código HTTP 301 del navegador para el redireccionamiento. Esto permite preservar el ránking de su sitio (dominio preferido) en los resultados de búsqueda de los navegadores. Si desactiva el redireccionamiento, las dos versiones se considerarán dos sitios web distintos. Como resultado, los ránkings se dividirán entre ambas.</p>
+</div>
+<div class="section" id="setting-the-default-homepage">
+<span id="o74420"></span><h2>Configuración de la página de inicio predeterminada<a class="headerlink" href="#setting-the-default-homepage" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="to-change-the-default-index-page-in-plesk-for-linux">
+<h3>Para cambiar la página de índice predeterminada en Plesk para Linux:<a class="headerlink" href="#to-change-the-default-index-page-in-plesk-for-linux" title="Enlazar permanentemente con este título">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">Vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración de Apache y nginx</strong>.</p>
+<p><a class="reference internal" href="_images/77066.png"><img alt="image-77066.png" src="_images/77066.png" style="width: 1095px; height: 645px;" /></a></p>
+</li>
+<li><p class="first">Seleccione la opción <strong>Introduzca un valor personalizado</strong> en la sección <strong>Archivos de índice</strong>. Especifique el nombre o los nombres de archivo que desea usar como página predeterminada. Puede indicar más de uno, separándolos con espacios. Por ejemplo, si especifica «index.htm index.php», el servidor web servirá <strong>index.htm</strong> como página predeterminada. Si no se encuentra el archivo con dicho nombre, se servirá <strong>index.php</strong>.</p>
+<p><a class="reference internal" href="_images/77067.png"><img alt="image-77067.png" src="_images/77067.png" style="width: 1102px; height: 555px;" /></a></p>
+</li>
+</ol>
+</div>
+<div class="section" id="to-change-the-default-index-page-in-plesk-for-windows">
+<h3>Para cambiar la página de índice predeterminada en Plesk para Windows:<a class="headerlink" href="#to-change-the-default-index-page-in-plesk-for-windows" title="Enlazar permanentemente con este título">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">Vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración de IIS</strong>.</p>
+<p><a class="reference internal" href="_images/77068.png"><img alt="image-77068.png" src="_images/77068.png" style="width: 1100px; height: 632px;" /></a></p>
+</li>
+<li><p class="first">Seleccione la opción <strong>Introduzca un valor personalizado</strong> en la sección <strong>Documentos predeterminados</strong>. Añada o elimine nombres de archivo de la lista. El servidor web empezará a buscar el archivo de página de inicio por la entrada situada en la parte superior y continuará hacia abajo. Por ejemplo, si especifica «index.htm» y a continuación, justo debajo, «index.php», el servidor web servirá index.htm como página predeterminada. Si no se encuentra el archivo con dicho nombre, se servirá index.php.</p>
+</li>
+</ol>
+<p><a class="reference internal" href="_images/77069.png"><img alt="image-77069.png" src="_images/77069.png" style="width: 1099px; height: 625px;" /></a></p>
+</div>
+</div>
+<div class="section" id="changing-the-document-root-directory">
+<span id="o74421"></span><h2>Cambio del directorio de la raíz de documentos<a class="headerlink" href="#changing-the-document-root-directory" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Todos los dominios de Plesk creados mediante hosting de sitios web disponen de su propio directorio en el sistema de archivos del servidor. Por omisión, la ruta al directorio es la siguiente:</p>
+<ul class="simple">
+<li>En Linux: <code class="docutils literal notranslate"><span class="pre">/var/www/vhosts/&lt;domain_name&gt;</span></code></li>
+<li>En Windows: <code class="docutils literal notranslate"><span class="pre">C:\Inetpub\vhosts\&lt;domain_name&gt;</span></code></li>
+</ul>
+<p>Esta carpeta contiene el directorio de la raíz de documentos, es decir, la carpeta en la que se almacena todo el contenido web del dominio. La carpeta predeterminada es <code class="docutils literal notranslate"><span class="pre">httpdocs</span></code>, pero si lo desea puede cambiarla en Plesk.</p>
+<p>Para cambiar el directorio de la raíz de documentos, vaya a <strong>Sitios web y dominios</strong>&gt; <strong>Configuración de hosting</strong> y cambie el nombre del directorio en el campo <strong>Raíz de documentos</strong>.</p>
+<p><a class="reference internal" href="_images/77070.png"><img alt="image-77070.png" src="_images/77070.png" style="width: 1097px; height: 357px;" /></a></p>
+</div>
+<div class="section" id="selecting-php-version">
+<span id="o74422"></span><h2>Selección de la versión de PHP<a class="headerlink" href="#selecting-php-version" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Para cambiar la versión de PHP, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración de hosting</strong> y seleccione la versión deseada en el menú <strong>Versión de PHP</strong>.</p>
+<p><a class="reference internal" href="_images/77071.png"><img alt="image-77071.png" src="_images/77071.png" style="width: 1099px; height: 468px;" /></a></p>
+</div>
+<div class="section" id="configuring-php-settings">
+<span id="o74424"></span><h2>Ajuste de la configuración de PHP<a class="headerlink" href="#configuring-php-settings" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Para cambiar la configuración de PHP, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración de PHP</strong>.</p>
+<p><a class="reference internal" href="_images/75586.png"><img alt="image-75586.png" src="_images/75586.png" style="width: 1206px; height: 606px;" /></a></p>
+</div>
+<div class="section" id="selecting-asp-net-version">
+<span id="o74423"></span><h2>Seleccionando versión de ASP.NET<a class="headerlink" href="#selecting-asp-net-version" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Para cambiar la versión de ASP.NET, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración de hosting</strong> y seleccione la versión deseada en el menú <strong>Versión</strong> que aparece al lado de la casilla <strong>Soporte de Microsoft ASP.NET</strong>.</p>
+<p><a class="reference internal" href="_images/77072.png"><img alt="image-77072.png" src="_images/77072.png" style="width: 1099px; height: 510px;" /></a></p>
+</div>
+<div class="section" id="setting-mime-types">
+<span id="o74425"></span><h2>Configuración de tipos MIME<a class="headerlink" href="#setting-mime-types" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Los tipos MIME (Multipurpose Internet Mail Exchange) indican al navegador Web o a una aplicación de correo cómo gestionar los archivos recibidos desde el servidor. Por ejemplo, cuando un navegador Web solicita un elemento de un servidor, también pide el tipo MIME del objeto. Algunos tipos MIME, como los gráficos, pueden mostrarse en el navegador. Otros, como los documentos procesadores de texto, requieren una aplicación externa para poderlos mostrar.</p>
+<p>Al establecer tipos MIME personalizados, puede indicar qué aplicaciones deben usarse para abrir un tipo de archivo determinado a nivel del cliente.</p>
+<p>Para configurar los tipos MIME en Plesk para Linux, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración de Apache y nginx</strong>.</p>
+<p><a class="reference internal" href="_images/77073.png"><img alt="image-77073.png" src="_images/77073.png" style="width: 1095px; height: 645px;" /></a></p>
+<p>Para configurar los tipos MIME en Plesk para Windows, vaya a <strong>Sitios web y dominios</strong> &gt; <strong>Configuración IIS</strong>.</p>
+<p><a class="reference internal" href="_images/77074.png"><img alt="image-77074.png" src="_images/77074.png" style="width: 1100px; height: 632px;" /></a></p>
+<p>A continuación, especifique los tipos MIME asociando extensiones de archivo con tipos de archivo. Por ejemplo: «text/plain .mytxt».</p>
+<p><a class="reference internal" href="_images/77075.png"><img alt="image-77075.png" src="_images/77075.png" style="width: 1104px; height: 488px;" /></a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright Plesk
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'obsidian',
+              LANGUAGE:'es',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.htm',
+              HAS_SOURCE:  false,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
