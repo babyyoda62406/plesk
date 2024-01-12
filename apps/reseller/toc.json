@@ -1,0 +1,2264 @@
+[
+  {
+    "id": 1,
+    "o": 70426,
+    "text": "Familiariz\u00e1ndose con Plesk",
+    "url": "about.html",
+    "node": "0",
+    "children": [
+      {
+        "id": 2,
+        "o": 65101,
+        "text": "Familiar\u00edcese con la interfaz de Plesk",
+        "url": "65101.html",
+        "node": "0+0",
+        "leaf": true
+      },
+      {
+        "id": 3,
+        "o": 73501,
+        "text": "Vistas de interfaz",
+        "url": "73501.html",
+        "node": "0+1",
+        "leaf": true
+      },
+      {
+        "id": 4,
+        "o": 59880,
+        "text": "Administraci\u00f3n de su perfil",
+        "url": "59880.html",
+        "node": "0+2",
+        "leaf": true
+      },
+      {
+        "id": 5,
+        "o": 59863,
+        "text": "Visualizaci\u00f3n de las propiedades de su suscripci\u00f3n",
+        "url": "59863.html",
+        "node": "0+3",
+        "children": [
+          {
+            "id": 6,
+            "o": 59865,
+            "text": "Visualizaci\u00f3n de recursos",
+            "url": "59865.html",
+            "node": "0+3+0",
+            "leaf": true
+          },
+          {
+            "id": 7,
+            "o": 59866,
+            "text": "Visualizaci\u00f3n de permisos",
+            "url": "59866.html",
+            "node": "0+3+1",
+            "leaf": true
+          },
+          {
+            "id": 8,
+            "o": 59864,
+            "text": "Visualizaci\u00f3n de direcciones IP",
+            "url": "59864.html",
+            "node": "0+3+2",
+            "leaf": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "o": 64607,
+    "text": "Concepto de planes de servicios y suscripciones",
+    "url": "64607.html",
+    "node": "1",
+    "children": [
+      {
+        "id": 10,
+        "o": 64638,
+        "text": "Propiedades de planes de hosting, complementos y suscripciones",
+        "url": "64638.html",
+        "node": "1+0",
+        "children": [
+          {
+            "id": 11,
+            "o": 65718,
+            "text": "Recursos",
+            "url": "65718.html",
+            "node": "1+0+0",
+            "leaf": true
+          },
+          {
+            "id": 12,
+            "o": 65719,
+            "text": "Permisos",
+            "url": "65719.html",
+            "node": "1+0+1",
+            "leaf": true
+          },
+          {
+            "id": 13,
+            "o": 65720,
+            "text": "Par\u00e1metros de hosting",
+            "url": "65720.html",
+            "node": "1+0+2",
+            "children": [
+              {
+                "id": 14,
+                "o": 70987,
+                "text": "Configuraci\u00f3n de PHP",
+                "url": "70987.html",
+                "node": "1+0+2+0",
+                "leaf": true
+              },
+              {
+                "id": 15,
+                "o": 69939,
+                "text": "Personalizaci\u00f3n de la configuraci\u00f3n PHP",
+                "url": "69939.html",
+                "node": "1+0+2+1",
+                "leaf": true
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "o": 65721,
+            "text": "Correo",
+            "url": "65721.html",
+            "node": "1+0+3",
+            "leaf": true
+          },
+          {
+            "id": 17,
+            "o": 66229,
+            "text": "DNS",
+            "url": "66229.html",
+            "node": "1+0+4",
+            "leaf": true
+          },
+          {
+            "id": 18,
+            "o": 65722,
+            "text": "(Plesk para Windows) Rendimiento",
+            "url": "65722.html",
+            "node": "1+0+5",
+            "leaf": true
+          },
+          {
+            "id": 19,
+            "o": 65723,
+            "text": "Registros y estad\u00edsticas",
+            "url": "65723.html",
+            "node": "1+0+6",
+            "leaf": true
+          },
+          {
+            "id": 20,
+            "o": 66344,
+            "text": "Aplicaciones",
+            "url": "66344.html",
+            "node": "1+0+7",
+            "leaf": true
+          },
+          {
+            "id": 21,
+            "o": 66388,
+            "text": "Servicios adicionales",
+            "url": "66388.html",
+            "node": "1+0+8",
+            "leaf": true
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "o": 64611,
+        "text": "Sincronizaci\u00f3n de suscripciones y planes",
+        "url": "64611.html",
+        "node": "1+1",
+        "leaf": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "o": 70436,
+    "text": "Empiece su negocio en Plesk",
+    "url": "70436.html",
+    "node": "2",
+    "leaf": true
+  },
+  {
+    "id": 24,
+    "o": 65821,
+    "text": "Cambio del branding y de la configuraci\u00f3n de la interfaz",
+    "url": "65821.html",
+    "node": "3",
+    "leaf": true
+  },
+  {
+    "id": 25,
+    "o": 65730,
+    "text": "Administraci\u00f3n de cuentas de cliente",
+    "url": "65730.html",
+    "node": "4",
+    "leaf": true
+  },
+  {
+    "id": 26,
+    "o": 65732,
+    "text": "Administraci\u00f3n de suscripciones",
+    "url": "65732.html",
+    "node": "5",
+    "leaf": true
+  },
+  {
+    "id": 27,
+    "o": 59744,
+    "text": "Copia y restauraci\u00f3n de datos",
+    "url": "59744.html",
+    "node": "6",
+    "children": [
+      {
+        "id": 28,
+        "o": 59745,
+        "text": "Configuraci\u00f3n del panel del cliente para el uso del almacenamiento FTP",
+        "url": "59745.html",
+        "node": "6+0",
+        "leaf": true
+      },
+      {
+        "id": 29,
+        "o": 59753,
+        "text": "Copia de datos manual",
+        "url": "59753.html",
+        "node": "6+1",
+        "leaf": true
+      },
+      {
+        "id": 30,
+        "o": 59751,
+        "text": "Programaci\u00f3n de backups",
+        "url": "59751.html",
+        "node": "6+2",
+        "leaf": true
+      },
+      {
+        "id": 31,
+        "o": 59750,
+        "text": "Restauraci\u00f3n de datos mediante archivos comprimidos de backup",
+        "url": "59750.html",
+        "node": "6+3",
+        "leaf": true
+      },
+      {
+        "id": 32,
+        "o": 59748,
+        "text": "Descarga de archivos de backup del servidor",
+        "url": "59748.html",
+        "node": "6+4",
+        "leaf": true
+      },
+      {
+        "id": 33,
+        "o": 59747,
+        "text": "Carga de archivos de backup al servidor",
+        "url": "59747.html",
+        "node": "6+5",
+        "leaf": true
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "o": 70462,
+    "text": "Administraci\u00f3n de sitios web",
+    "url": "70462.html",
+    "node": "7",
+    "children": [
+      {
+        "id": 35,
+        "o": 70612,
+        "text": "Primeros pasos en Plesk",
+        "url": "70612.html",
+        "node": "7+0",
+        "children": [
+          {
+            "id": 36,
+            "o": 70610,
+            "text": "Acceder a Plesk",
+            "url": "70610.html",
+            "node": "7+0+0",
+            "leaf": true
+          },
+          {
+            "id": 37,
+            "o": 64639,
+            "text": "Creaci\u00f3n de su primer sitio web",
+            "url": "64639.html",
+            "node": "7+0+1",
+            "children": [
+              {
+                "id": 38,
+                "o": 65159,
+                "text": "1. Create Your Site",
+                "url": "65159.html",
+                "node": "7+0+1+0",
+                "children": [
+                  {
+                    "id": 39,
+                    "o": 65137,
+                    "text": "Presence Builder",
+                    "url": "65137.html",
+                    "node": "7+0+1+0+0",
+                    "leaf": true
+                  },
+                  {
+                    "id": 40,
+                    "o": 70602,
+                    "text": "Sistemas de gesti\u00f3n de contenido",
+                    "url": "70602.html",
+                    "node": "7+0+1+0+1",
+                    "leaf": true
+                  },
+                  {
+                    "id": 41,
+                    "o": 70312,
+                    "text": "Carga de contenido",
+                    "url": "70312.html",
+                    "node": "7+0+1+0+2",
+                    "children": [
+                      {
+                        "id": 42,
+                        "o": 65145,
+                        "text": "Carga de contenido mediante FTP",
+                        "url": "65145.html",
+                        "node": "7+0+1+0+2+0",
+                        "leaf": true
+                      },
+                      {
+                        "id": 43,
+                        "o": 65148,
+                        "text": "Carga de contenido a trav\u00e9s del administrador de archivos",
+                        "url": "65148.html",
+                        "node": "7+0+1+0+2+1",
+                        "leaf": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 44,
+                "o": 65156,
+                "text": "2. Preview Your Site",
+                "url": "65156.html",
+                "node": "7+0+1+1",
+                "leaf": true
+              },
+              {
+                "id": 45,
+                "o": 65174,
+                "text": "3. Submit Your Sites to Search Engines",
+                "url": "65174.html",
+                "node": "7+0+1+2",
+                "leaf": true
+              }
+            ]
+          },
+          {
+            "id": 46,
+            "o": 69276,
+            "text": "Creaci\u00f3n de cuentas de correo",
+            "url": "69276.html",
+            "node": "7+0+2",
+            "children": [
+              {
+                "id": 47,
+                "o": 69277,
+                "text": "1. Create Mail Account",
+                "url": "69277.html",
+                "node": "7+0+2+0",
+                "leaf": true
+              },
+              {
+                "id": 48,
+                "o": 65691,
+                "text": "2. Access Your Mailbox",
+                "url": "65691.html",
+                "node": "7+0+2+1",
+                "children": [
+                  {
+                    "id": 49,
+                    "o": 69294,
+                    "text": "Acceso mediante webmail",
+                    "url": "69294.html",
+                    "node": "7+0+2+1+0",
+                    "leaf": true
+                  },
+                  {
+                    "id": 50,
+                    "o": 65697,
+                    "text": "Acceso mediante Microsoft Office Outlook 2019",
+                    "url": "65697.html",
+                    "node": "7+0+2+1+1",
+                    "leaf": true
+                  },
+                  {
+                    "id": 51,
+                    "o": 65692,
+                    "text": "Acceso mediante Microsoft Office Outlook 2016",
+                    "url": "65692.html",
+                    "node": "7+0+2+1+2",
+                    "leaf": true
+                  },
+                  {
+                    "id": 52,
+                    "o": 65693,
+                    "text": "Acceso mediante Microsoft Outlook Express",
+                    "url": "65693.html",
+                    "node": "7+0+2+1+3",
+                    "leaf": true
+                  },
+                  {
+                    "id": 53,
+                    "o": 65694,
+                    "text": "Acceso mediante Mozilla Thunderbird",
+                    "url": "65694.html",
+                    "node": "7+0+2+1+4",
+                    "leaf": true
+                  },
+                  {
+                    "id": 54,
+                    "o": 65695,
+                    "text": "Acceso mediante Apple Mail",
+                    "url": "65695.html",
+                    "node": "7+0+2+1+5",
+                    "leaf": true
+                  },
+                  {
+                    "id": 55,
+                    "o": 75203,
+                    "text": "Acceso desde un iPhone",
+                    "url": "75203.html",
+                    "node": "7+0+2+1+6",
+                    "leaf": true
+                  },
+                  {
+                    "id": 56,
+                    "o": 75211,
+                    "text": "Acceso desde Android",
+                    "url": "75211.html",
+                    "node": "7+0+2+1+7",
+                    "leaf": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 57,
+            "o": 69283,
+            "text": "Visualizaci\u00f3n de estad\u00edsticas de visitas al sitio",
+            "url": "69283.html",
+            "node": "7+0+3",
+            "leaf": true
+          }
+        ]
+      },
+      {
+        "id": 58,
+        "o": 70611,
+        "text": "Administraci\u00f3n de cuentas de cliente",
+        "url": "70611.html",
+        "node": "7+1",
+        "children": [
+          {
+            "id": 59,
+            "o": 65141,
+            "text": "Actualizaci\u00f3n de su contrase\u00f1a y de la informaci\u00f3n de contacto",
+            "url": "65141.html",
+            "node": "7+1+0",
+            "leaf": true
+          },
+          {
+            "id": 60,
+            "o": 70313,
+            "text": "Visualizaci\u00f3n del resumen de una suscripci\u00f3n",
+            "url": "70313.html",
+            "node": "7+1+1",
+            "children": [
+              {
+                "id": 61,
+                "o": 70314,
+                "text": "Recursos asignados y consumidos",
+                "url": "70314.html",
+                "node": "7+1+1+0",
+                "leaf": true
+              },
+              {
+                "id": 62,
+                "o": 70315,
+                "text": "Prestaciones de hosting disponibles para sus sitios web",
+                "url": "70315.html",
+                "node": "7+1+1+1",
+                "leaf": true
+              }
+            ]
+          },
+          {
+            "id": 63,
+            "o": 65154,
+            "text": "Visualizaci\u00f3n de estad\u00edsticas",
+            "url": "65154.html",
+            "node": "7+1+2",
+            "children": [
+              {
+                "id": 64,
+                "o": 65210,
+                "text": "Archivos de registro",
+                "url": "65210.html",
+                "node": "7+1+2+0",
+                "leaf": true
+              }
+            ]
+          },
+          {
+            "id": 65,
+            "o": 69329,
+            "text": "Administraci\u00f3n de cuentas de usuario adicionales",
+            "url": "69329.html",
+            "node": "7+1+3",
+            "children": [
+              {
+                "id": 66,
+                "o": 69331,
+                "text": "Cuentas de usuario adicionales",
+                "url": "69331.html",
+                "node": "7+1+3+0",
+                "leaf": true
+              },
+              {
+                "id": 67,
+                "o": 65822,
+                "text": "Creaci\u00f3n de botones personalizados",
+                "url": "65822.html",
+                "node": "7+1+3+1",
+                "leaf": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "o": 70613,
+        "text": "Sitios web y dominios",
+        "url": "70613.html",
+        "node": "7+2",
+        "children": [
+          {
+            "id": 69,
+            "o": 69429,
+            "text": "Dominios y DNS",
+            "url": "69429.html",
+            "node": "7+2+0",
+            "children": [
+              {
+                "id": 70,
+                "o": 65150,
+                "text": "Adici\u00f3n y eliminaci\u00f3n de dominios",
+                "url": "65150.html",
+                "node": "7+2+0+0",
+                "leaf": true
+              },
+              {
+                "id": 71,
+                "o": 65180,
+                "text": "Adici\u00f3n de subdominios",
+                "url": "65180.html",
+                "node": "7+2+0+1",
+                "leaf": true
+              },
+              {
+                "id": 72,
+                "o": 65286,
+                "text": "Adici\u00f3n de alias de dominio",
+                "url": "65286.html",
+                "node": "7+2+0+2",
+                "leaf": true
+              },
+              {
+                "id": 73,
+                "o": 70111,
+                "text": "Adici\u00f3n de subdominios wildcard (Linux)",
+                "url": "70111.html",
+                "node": "7+2+0+3",
+                "leaf": true
+              },
+              {
+                "id": 74,
+                "o": 72057,
+                "text": "Adici\u00f3n de redireccionadores de dominio",
+                "url": "72057.html",
+                "node": "7+2+0+4",
+                "leaf": true
+              },
+              {
+                "id": 75,
+                "o": 69433,
+                "text": "Configuraci\u00f3n de DNS para un dominio",
+                "url": "69433.html",
+                "node": "7+2+0+5",
+                "children": [
+                  {
+                    "id": 76,
+                    "o": 65185,
+                    "text": "Plesk como el servidor DNS principal",
+                    "url": "65185.html",
+                    "node": "7+2+0+5+0",
+                    "leaf": true
+                  },
+                  {
+                    "id": 77,
+                    "o": 65192,
+                    "text": "Plesk como servidor DNS secundario",
+                    "url": "65192.html",
+                    "node": "7+2+0+5+1",
+                    "leaf": true
+                  },
+                  {
+                    "id": 78,
+                    "o": 65628,
+                    "text": "Configuraci\u00f3n DNS del registrador en Plesk",
+                    "url": "65628.html",
+                    "node": "7+2+0+5+2",
+                    "leaf": true
+                  }
+                ]
+              },
+              {
+                "id": 79,
+                "o": 76433,
+                "text": "Configuraci\u00f3n de DNSSEC para un dominio",
+                "url": "76433.html",
+                "node": "7+2+0+6",
+                "leaf": true
+              }
+            ]
+          },
+          {
+            "id": 80,
+            "o": 69455,
+            "text": "Configuraci\u00f3n de hosting",
+            "url": "69455.html",
+            "node": "7+2+1",
+            "children": [
+              {
+                "id": 81,
+                "o": 72050,
+                "text": "Configuraci\u00f3n general",
+                "url": "72050.html",
+                "node": "7+2+1+0",
+                "children": [
+                  {
+                    "id": 82,
+                    "o": 72051,
+                    "text": "Tipos de hosting",
+                    "url": "72051.html",
+                    "node": "7+2+1+0+0",
+                    "children": [
+                      {
+                        "id": 83,
+                        "o": 720510000,
+                        "text": "Hosting de sitios web",
+                        "url": "72051.html#website-hosting",
+                        "node": "7+2+1+0+0+0",
+                        "leaf": true
+                      },
+                      {
+                        "id": 84,
+                        "o": 720510001,
+                        "text": "Redireccionamiento",
+                        "url": "72051.html#forwarding",
+                        "node": "7+2+1+0+0+1",
+                        "leaf": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": 85,
+                    "o": 72339,
+                    "text": "Estado del sitio web",
+                    "url": "72339.html",
+                    "node": "7+2+1+0+1",
+                    "leaf": true
+                  }
+                ]
+              },
+              {
+                "id": 86,
+                "o": 69457,
+                "text": "Configuraci\u00f3n de scripting web",
+                "url": "69457.html",
+                "node": "7+2+1+1",
+                "children": [
+                  {
+                    "id": 87,
+                    "o": 70742,
+                    "text": "Configuraci\u00f3n de PHP",
+                    "url": "70742.html",
+                    "node": "7+2+1+1+0",
+                    "leaf": true
+                  },
+                  {
+                    "id": 88,
+                    "o": 65283,
+                    "text": "Configuraci\u00f3n de ASP.NET (Windows)",
+                    "url": "65283.html",
+                    "node": "7+2+1+1+1",
+                    "leaf": true
+                  }
+                ]
+              },
+              {
+                "id": 89,
+                "o": 71929,
+                "text": "Configuraci\u00f3n del servidor web",
+                "url": "71929.html",
+                "node": "7+2+1+2",
+                "children": [
+                  {
+                    "id": 90,
+                    "o": 72320,
+                    "text": "Configuraci\u00f3n de nginx y Apache",
+                    "url": "72320.html",
+                    "node": "7+2+1+2+0",
+                    "children": [
+                      {
+                        "id": 91,
+                        "o": 723200000,
+                        "text": "Ajuste de la configuraci\u00f3n de nginx y Apache",
+                        "url": "72320.html#adjusting-apache-and-nginx-settings",
+                        "node": "7+2+1+2+0+0",
+                        "leaf": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": 92,
+                    "o": 72082,
+                    "text": "Configuraci\u00f3n de servidor web IIS",
+                    "url": "72082.html",
+                    "node": "7+2+1+2+1",
+                    "children": [
+                      {
+                        "id": 93,
+                        "o": 720820000,
+                        "text": "Edici\u00f3n de la configuraci\u00f3n del servidor web IIS",
+                        "url": "72082.html#adjusting-iis-web-server-settings",
+                        "node": "7+2+1+2+1+0",
+                        "leaf": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 94,
+            "o": 69462,
+            "text": "Contenido de un sitio web",
+            "url": "69462.html",
+            "node": "7+2+2",
+            "children": [
+              {
+                "id": 95,
+                "o": 74102,
+                "text": "Presence Builder",
+                "url": "74102.html",
+                "node": "7+2+2+0",
+                "leaf": true
+              },
+              {
+                "id": 96,
+                "o": 74104,
+                "text": "Carga de contenido mediante FTP",
+                "url": "74104.html",
+                "node": "7+2+2+1",
+                "leaf": true
+              },
+              {
+                "id": 97,
+                "o": 74105,
+                "text": "Carga de contenido a trav\u00e9s del administrador de archivos",
+                "url": "74105.html",
+                "node": "7+2+2+2",
+                "leaf": true
+              },
+              {
+                "id": 98,
+                "o": 70738,
+                "text": "Cambio de permisos de acceso a directorios y archivos en el administrador de archivos",
+                "url": "70738.html",
+                "node": "7+2+2+3",
+                "leaf": true
+              },
+              {
+                "id": 99,
+                "o": 75877,
+                "text": "Despliegue de contenido mediante Git",
+                "url": "75877.html",
+                "node": "7+2+2+4",
+                "leaf": true
+              }
+            ]
+          },
+          {
+            "id": 100,
+            "o": 65152,
+            "text": "Restricci\u00f3n del acceso al contenido",
+            "url": "65152.html",
+            "node": "7+2+3",
+            "leaf": true
+          },
+          {
+            "id": 101,
+            "o": 69679,
+            "text": "Previsualizaci\u00f3n de sitios web",
+            "url": "69679.html",
+            "node": "7+2+4",
+            "leaf": true
+          },
+          {
+            "id": 102,
+            "o": 73573,
+            "text": "Descripciones del sitio",
+            "url": "73573.html",
+            "node": "7+2+5",
+            "leaf": true
+          },
+          {
+            "id": 103,
+            "o": 68973,
+            "text": "Aplicaciones web",
+            "url": "68973.html",
+            "node": "7+2+6",
+            "children": [
+              {
+                "id": 104,
+                "o": 689730000,
+                "text": "Tipos de aplicaciones",
+                "url": "68973.html#app-types",
+                "node": "7+2+6+0",
+                "leaf": true
+              },
+              {
+                "id": 105,
+                "o": 689730001,
+                "text": "Instalaci\u00f3n y mantenimiento de las aplicaciones",
+                "url": "68973.html#app-installation-and-maintenance",
+                "node": "7+2+6+1",
+                "leaf": true
+              },
+              {
+                "id": 106,
+                "o": 689730002,
+                "text": "Bases de datos de aplicaci\u00f3n",
+                "url": "68973.html#app-databases",
+                "node": "7+2+6+2",
+                "leaf": true
+              },
+              {
+                "id": 107,
+                "o": 689730003,
+                "text": "Acceso a apps",
+                "url": "68973.html#access-to-apps",
+                "node": "7+2+6+3",
+                "leaf": true
+              },
+              {
+                "id": 108,
+                "o": 689730004,
+                "text": "Aplicaciones y cuentas de usuario adicional",
+                "url": "68973.html#apps-and-additional-user-accounts",
+                "node": "7+2+6+4",
+                "leaf": true
+              },
+              {
+                "id": 109,
+                "o": 689730005,
+                "text": "Instalaci\u00f3n de aplicaciones",
+                "url": "68973.html#installing-apps",
+                "node": "7+2+6+5",
+                "leaf": true
+              },
+              {
+                "id": 110,
+                "o": 689730006,
+                "text": "Administraci\u00f3n de aplicaciones",
+                "url": "68973.html#managing-apps",
+                "node": "7+2+6+6",
+                "leaf": true
+              },
+              {
+                "id": 111,
+                "o": 689730007,
+                "text": "Concesi\u00f3n de acceso a aplicaciones a usuarios adicionales",
+                "url": "68973.html#granting-additional-users-access-to-apps",
+                "node": "7+2+6+7",
+                "leaf": true
+              },
+              {
+                "id": 112,
+                "o": 689730008,
+                "text": "Vinculaci\u00f3n de aplicaciones y cuentas de usuario adicionales",
+                "url": "68973.html#linking-apps-and-additional-user-accounts",
+                "node": "7+2+6+8",
+                "leaf": true
+              },
+              {
+                "id": 113,
+                "o": 689730009,
+                "text": "Actualizaci\u00f3n de aplicaciones",
+                "url": "68973.html#updating-apps",
+                "node": "7+2+6+9",
+                "leaf": true
+              },
+              {
+                "id": 114,
+                "o": 689730010,
+                "text": "Administraci\u00f3n de las dependencias de proyecto de PHP con Composer",
+                "url": "68973.html#managing-php-project-dependencies-with-composer",
+                "node": "7+2+6+10",
+                "leaf": true
+              }
+            ]
+          },
+          {
+            "id": 115,
+            "o": 69479,
+            "text": "Administraci\u00f3n ampliada de sitios web",
+            "url": "69479.html",
+            "node": "7+2+7",
+            "children": [
+              {
+                "id": 116,
+                "o": 66505,
+                "text": "Uso de un sitio de ensayo",
+                "url": "66505.html",
+                "node": "7+2+7+0",
+                "leaf": true
+              },
+              {
+                "id": 117,
+                "o": 65246,
+                "text": "Creaci\u00f3n de p\u00e1ginas de error personalizadas",
+                "url": "65246.html",
+                "node": "7+2+7+1",
+                "children": [
+                  {
+                    "id": 118,
+                    "o": 65652,
+                    "text": "Creaci\u00f3n de p\u00e1ginas de error personalizadas en servidores Windows",
+                    "url": "65652.html",
+                    "node": "7+2+7+1+0",
+                    "leaf": true
+                  },
+                  {
+                    "id": 119,
+                    "o": 65653,
+                    "text": "Creaci\u00f3n de p\u00e1ginas de error personalizadas en servidores Linux",
+                    "url": "65653.html",
+                    "node": "7+2+7+1+1",
+                    "leaf": true
+                  }
+                ]
+              },
+              {
+                "id": 120,
+                "o": 65284,
+                "text": "Hosting de p\u00e1ginas web personales debajo de sus dominios",
+                "url": "65284.html",
+                "node": "7+2+7+2",
+                "leaf": true
+              },
+              {
+                "id": 121,
+                "o": 65276,
+                "text": "(Plesk para Windows) Limitaci\u00f3n del ancho de banda y del n\u00famero de conexiones a un sitio web",
+                "url": "65276.html",
+                "node": "7+2+7+3",
+                "leaf": true
+              },
+              {
+                "id": 122,
+                "o": 65213,
+                "text": "Uso de directorios virtuales (Windows)",
+                "url": "65213.html",
+                "node": "7+2+7+4",
+                "children": [
+                  {
+                    "id": 123,
+                    "o": 65214,
+                    "text": "Creaci\u00f3n de directorios virtuales",
+                    "url": "65214.html",
+                    "node": "7+2+7+4+0",
+                    "leaf": true
+                  },
+                  {
+                    "id": 124,
+                    "o": 65219,
+                    "text": "Configuraci\u00f3n de ASP.NET para directorios virtuales",
+                    "url": "65219.html",
+                    "node": "7+2+7+4+1",
+                    "leaf": true
+                  },
+                  {
+                    "id": 125,
+                    "o": 65220,
+                    "text": "Configuraci\u00f3n de PHP para directorios virtuales",
+                    "url": "65220.html",
+                    "node": "7+2+7+4+2",
+                    "leaf": true
+                  },
+                  {
+                    "id": 126,
+                    "o": 65221,
+                    "text": "Configuraci\u00f3n de acceso a directorios virtuales",
+                    "url": "65221.html",
+                    "node": "7+2+7+4+3",
+                    "leaf": true
+                  },
+                  {
+                    "id": 127,
+                    "o": 65215,
+                    "text": "Modificaci\u00f3n de la configuraci\u00f3n de un directorio virtual",
+                    "url": "65215.html",
+                    "node": "7+2+7+4+4",
+                    "leaf": true
+                  },
+                  {
+                    "id": 128,
+                    "o": 65216,
+                    "text": "Adici\u00f3n y eliminaci\u00f3n de tipos MIME",
+                    "url": "65216.html",
+                    "node": "7+2+7+4+5",
+                    "leaf": true
+                  }
+                ]
+              },
+              {
+                "id": 129,
+                "o": 65282,
+                "text": "Creaci\u00f3n de un grupo de aplicaciones IIS (Windows)",
+                "url": "65282.html",
+                "node": "7+2+7+5",
+                "leaf": true
+              },
+              {
+                "id": 130,
+                "o": 69654,
+                "text": "Publicaci\u00f3n web mediante Web Deploy (Windows)",
+                "url": "69654.html",
+                "node": "7+2+7+6",
+                "leaf": true
+              }
+            ]
+          },
+          {
+            "id": 131,
+            "o": 69476,
+            "text": "(Avanzado) Seguridad de un sitio web",
+            "url": "69476.html",
+            "node": "7+2+8",
+            "children": [
+              {
+                "id": 132,
+                "o": 65158,
+                "text": "Protecci\u00f3n de conexiones con certificados SSL/TLS",
+                "url": "65158.html",
+                "node": "7+2+8+0",
+                "children": [
+                  {
+                    "id": 133,
+                    "o": 65160,
+                    "text": "Protecci\u00f3n de conexiones con la extensi\u00f3n SSL It!",
+                    "url": "65160.html",
+                    "node": "7+2+8+0+0",
+                    "children": [
+                      {
+                        "id": 134,
+                        "o": 651600000,
+                        "text": "Primeros pasos en SSL It!",
+                        "url": "65160.html#getting-started-with-ssl-it",
+                        "node": "7+2+8+0+0+0",
+                        "leaf": true
+                      },
+                      {
+                        "id": 135,
+                        "o": 651600001,
+                        "text": "Protecci\u00f3n de sitios web con certificados SSL/TLS",
+                        "url": "65160.html#securing-websites-with-ssl-tls-certificates",
+                        "node": "7+2+8+0+0+1",
+                        "leaf": true
+                      },
+                      {
+                        "id": 136,
+                        "o": 651600002,
+                        "text": "Carga de certificados SSL/TLS",
+                        "url": "65160.html#uploading-ssl-tls-certificates",
+                        "node": "7+2+8+0+0+2",
+                        "leaf": true
+                      },
+                      {
+                        "id": 137,
+                        "o": 651600003,
+                        "text": "Renovaci\u00f3n de certificados SSL/TLS instalados",
+                        "url": "65160.html#renewing-installed-ssl-tls-certificates",
+                        "node": "7+2+8+0+0+3",
+                        "leaf": true
+                      },
+                      {
+                        "id": 138,
+                        "o": 651600004,
+                        "text": "Cancelaci\u00f3n de la asignaci\u00f3n de certificados SSL/TLS",
+                        "url": "65160.html#unassigning-ssl-tls-certificates",
+                        "node": "7+2+8+0+0+4",
+                        "leaf": true
+                      },
+                      {
+                        "id": 139,
+                        "o": 651600005,
+                        "text": "Mejora de la seguridad de sus sitios web",
+                        "url": "65160.html#enhancing-security-of-your-websites",
+                        "node": "7+2+8+0+0+5",
+                        "leaf": true
+                      },
+                      {
+                        "id": 140,
+                        "o": 651600006,
+                        "text": "Evaluaci\u00f3n de la seguridad SSL de su sitio web",
+                        "url": "65160.html#evaluating-the-ssl-security-of-your-website",
+                        "node": "7+2+8+0+0+6",
+                        "leaf": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": 141,
+                    "o": 74681,
+                    "text": "Protecci\u00f3n de su sitio web mediante un certificado SSL/TLS",
+                    "url": "74681.html",
+                    "node": "7+2+8+0+1",
+                    "leaf": true
+                  },
+                  {
+                    "id": 142,
+                    "o": 74682,
+                    "text": "Protecci\u00f3n de su sitio web mediante un certificado SSL/TLS autofirmado",
+                    "url": "74682.html",
+                    "node": "7+2+8+0+2",
+                    "leaf": true
+                  },
+                  {
+                    "id": 143,
+                    "o": 74685,
+                    "text": "Compra de un certificado SSL/TLS a trav\u00e9s de una autoridad de certificaci\u00f3n",
+                    "url": "74685.html",
+                    "node": "7+2+8+0+3",
+                    "leaf": true
+                  },
+                  {
+                    "id": 144,
+                    "o": 74686,
+                    "text": "Compra de un certificado SSL/TLS a trav\u00e9s de Plesk",
+                    "url": "74686.html",
+                    "node": "7+2+8+0+4",
+                    "leaf": true
+                  },
+                  {
+                    "id": 145,
+                    "o": 77233,
+                    "text": "Obtenci\u00f3n de un certificado SSL/TLS gratuito de Let\u2019s Encrypt",
+                    "url": "77233.html",
+                    "node": "7+2+8+0+5",
+                    "leaf": true
+                  },
+                  {
+                    "id": 146,
+                    "o": 76531,
+                    "text": "Protecci\u00f3n de su webmail mediante un certificado SSL/TLS",
+                    "url": "76531.html",
+                    "node": "7+2+8+0+6",
+                    "leaf": true
+                  }
+                ]
+              },
+              {
+                "id": 147,
+                "o": 65212,
+                "text": "(Plesk para Windows) Protecci\u00f3n de sitios web de hotlinking",
+                "url": "65212.html",
+                "node": "7+2+8+1",
+                "leaf": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 148,
+        "o": 73391,
+        "text": "WP Toolkit",
+        "url": "73391.html",
+        "node": "7+3",
+        "children": [
+          {
+            "id": 149,
+            "o": 733910000,
+            "text": "Instalaci\u00f3n de WordPress",
+            "url": "73391.html#installing-wordpress",
+            "node": "7+3+0",
+            "leaf": true
+          },
+          {
+            "id": 150,
+            "o": 733910001,
+            "text": "Preinstalaci\u00f3n de WordPress en dominios de clientes",
+            "url": "73391.html#preinstalling-wordpress-on-customers-domains",
+            "node": "7+3+1",
+            "leaf": true
+          },
+          {
+            "id": 151,
+            "o": 733910002,
+            "text": "Establecimiento de un n\u00famero m\u00e1ximo de instalaciones de WordPress de los clientes",
+            "url": "73391.html#limiting-a-number-of-customers-wordpress-installations",
+            "node": "7+3+2",
+            "leaf": true
+          },
+          {
+            "id": 152,
+            "o": 733910003,
+            "text": "Limitaci\u00f3n del n\u00famero de backups de WP Toolkit de los clientes",
+            "url": "73391.html#limiting-a-number-of-customers-wp-toolkit-backups",
+            "node": "7+3+3",
+            "leaf": true
+          },
+          {
+            "id": 153,
+            "o": 733910004,
+            "text": "Administraci\u00f3n de instalaciones de WordPress",
+            "url": "73391.html#managing-wordpress-installations",
+            "node": "7+3+4",
+            "leaf": true
+          },
+          {
+            "id": 154,
+            "o": 733910005,
+            "text": "Actualizaci\u00f3n de instalaciones de WordPress",
+            "url": "73391.html#updating-wordpress-installations",
+            "node": "7+3+5",
+            "leaf": true
+          },
+          {
+            "id": 155,
+            "o": 733910006,
+            "text": "Copia y restauraci\u00f3n de instalaciones de WordPress",
+            "url": "73391.html#backing-up-and-restoring-wordpress-installations",
+            "node": "7+3+6",
+            "leaf": true
+          },
+          {
+            "id": 156,
+            "o": 733910007,
+            "text": "Smart Updates",
+            "url": "73391.html#smart-updates",
+            "node": "7+3+7",
+            "leaf": true
+          },
+          {
+            "id": 157,
+            "o": 733910008,
+            "text": "Administraci\u00f3n de plugins",
+            "url": "73391.html#managing-plugins",
+            "node": "7+3+8",
+            "leaf": true
+          },
+          {
+            "id": 158,
+            "o": 733910009,
+            "text": "Administraci\u00f3n de temas",
+            "url": "73391.html#managing-themes",
+            "node": "7+3+9",
+            "leaf": true
+          },
+          {
+            "id": 159,
+            "o": 733910010,
+            "text": "Protecci\u00f3n de WordPress",
+            "url": "73391.html#securing-wordpress",
+            "node": "7+3+10",
+            "leaf": true
+          },
+          {
+            "id": 160,
+            "o": 733910011,
+            "text": "Clonaci\u00f3n de un sitio web WordPress",
+            "url": "73391.html#cloning-a-wordpress-website",
+            "node": "7+3+11",
+            "leaf": true
+          },
+          {
+            "id": 161,
+            "o": 733910012,
+            "text": "Copia de datos de un sitio web WordPress a otro",
+            "url": "73391.html#copying-data-from-one-wordpress-website-to-another",
+            "node": "7+3+12",
+            "leaf": true
+          },
+          {
+            "id": 162,
+            "o": 733910013,
+            "text": "Restauraci\u00f3n de una instalaci\u00f3n de WordPress",
+            "url": "73391.html#restoring-a-wordpress-installation",
+            "node": "7+3+13",
+            "leaf": true
+          },
+          {
+            "id": 163,
+            "o": 733910014,
+            "text": "Actualizando la URL de un sitio",
+            "url": "73391.html#updating-a-website-url",
+            "node": "7+3+14",
+            "leaf": true
+          },
+          {
+            "id": 164,
+            "o": 733910015,
+            "text": "Protecci\u00f3n de un sitio web con contrase\u00f1a",
+            "url": "73391.html#protecting-a-website-with-a-password",
+            "node": "7+3+15",
+            "leaf": true
+          },
+          {
+            "id": 165,
+            "o": 733910016,
+            "text": "Configuraci\u00f3n de una ejecuci\u00f3n regular de wp-cron.php",
+            "url": "73391.html#setting-up-a-regular-run-of-wp-cron-php",
+            "node": "7+3+16",
+            "leaf": true
+          },
+          {
+            "id": 166,
+            "o": 733910017,
+            "text": "Registro de eventos de instalaciones de WordPress",
+            "url": "73391.html#logging-events-of-wordpress-installations",
+            "node": "7+3+17",
+            "leaf": true
+          },
+          {
+            "id": 167,
+            "o": 733910018,
+            "text": "Modo de mantenimiento",
+            "url": "73391.html#maintenance-mode",
+            "node": "7+3+18",
+            "leaf": true
+          },
+          {
+            "id": 168,
+            "o": 733910019,
+            "text": "Verificaci\u00f3n de sumas de comprobaci\u00f3n del n\u00facleo de WordPress",
+            "url": "73391.html#wordpress-core-checksum-verification",
+            "node": "7+3+19",
+            "leaf": true
+          }
+        ]
+      },
+      {
+        "id": 169,
+        "o": 75824,
+        "text": "Soporte de Git",
+        "url": "75824.html",
+        "node": "7+4",
+        "children": [
+          {
+            "id": 170,
+            "o": 75825,
+            "text": "Uso de un repositorio local",
+            "url": "75825.html",
+            "node": "7+4+0",
+            "children": [
+              {
+                "id": 171,
+                "o": 758250000,
+                "text": "Creaci\u00f3n de un repositorio Git",
+                "url": "75825.html#create-a-git-repository",
+                "node": "7+4+0+0",
+                "leaf": true
+              },
+              {
+                "id": 172,
+                "o": 758250001,
+                "text": "Push y despliegue de archivos",
+                "url": "75825.html#push-and-deploy-the-files",
+                "node": "7+4+0+1",
+                "leaf": true
+              },
+              {
+                "id": 173,
+                "o": 758250002,
+                "text": "Cambio de rama o ruta",
+                "url": "75825.html#change-branch-or-path",
+                "node": "7+4+0+2",
+                "leaf": true
+              },
+              {
+                "id": 174,
+                "o": 758250003,
+                "text": "Seleccionar un modo de despliegue",
+                "url": "75825.html#select-a-deploy-mode",
+                "node": "7+4+0+3",
+                "leaf": true
+              },
+              {
+                "id": 175,
+                "o": 758250004,
+                "text": "Activaci\u00f3n de otras acciones de despliegue",
+                "url": "75825.html#enable-additional-deployment-actions",
+                "node": "7+4+0+4",
+                "leaf": true
+              },
+              {
+                "id": 176,
+                "o": 758250005,
+                "text": "Visualizaci\u00f3n de los registros de modificaciones",
+                "url": "75825.html#view-commit-logs",
+                "node": "7+4+0+5",
+                "leaf": true
+              },
+              {
+                "id": 177,
+                "o": 758250006,
+                "text": "Cambio de nombre o eliminaci\u00f3n de un repositorio",
+                "url": "75825.html#rename-or-remove-a-repository",
+                "node": "7+4+0+6",
+                "leaf": true
+              }
+            ]
+          },
+          {
+            "id": 178,
+            "o": 75848,
+            "text": "Uso de hosting remoto de Git",
+            "url": "75848.html",
+            "node": "7+4+1",
+            "children": [
+              {
+                "id": 179,
+                "o": 758480000,
+                "text": "Clonaci\u00f3n de un repositorio Git",
+                "url": "75848.html#clone-git-repository",
+                "node": "7+4+1+0",
+                "leaf": true
+              },
+              {
+                "id": 180,
+                "o": 758480001,
+                "text": "Uso de una conexi\u00f3n SSH",
+                "url": "75848.html#using-ssh-connection",
+                "node": "7+4+1+1",
+                "leaf": true
+              },
+              {
+                "id": 181,
+                "o": 758480002,
+                "text": "Pull y despliegue de archivos",
+                "url": "75848.html#pull-and-deploy-the-files",
+                "node": "7+4+1+2",
+                "leaf": true
+              },
+              {
+                "id": 182,
+                "o": 758480003,
+                "text": "Cambio de rama o ruta",
+                "url": "75848.html#change-branch-or-path",
+                "node": "7+4+1+3",
+                "leaf": true
+              },
+              {
+                "id": 183,
+                "o": 758480004,
+                "text": "Seleccionar un modo de despliegue",
+                "url": "75848.html#select-a-deploy-mode",
+                "node": "7+4+1+4",
+                "leaf": true
+              },
+              {
+                "id": 184,
+                "o": 758480005,
+                "text": "Uso de webhooks para pull autom\u00e1tico",
+                "url": "75848.html#use-webhooks-for-automatic-pull",
+                "node": "7+4+1+5",
+                "leaf": true
+              },
+              {
+                "id": 185,
+                "o": 758480006,
+                "text": "Activaci\u00f3n de otras acciones de despliegue",
+                "url": "75848.html#enable-additional-deployment-actions",
+                "node": "7+4+1+6",
+                "leaf": true
+              },
+              {
+                "id": 186,
+                "o": 758480007,
+                "text": "Visualizaci\u00f3n de los registros de modificaciones",
+                "url": "75848.html#view-commit-logs",
+                "node": "7+4+1+7",
+                "leaf": true
+              },
+              {
+                "id": 187,
+                "o": 758480008,
+                "text": "Cambio de nombre o eliminaci\u00f3n de un repositorio",
+                "url": "75848.html#rename-or-remove-a-repository",
+                "node": "7+4+1+8",
+                "leaf": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 188,
+        "o": 76489,
+        "text": "Soporte de Ruby (Linux)",
+        "url": "76489.html",
+        "node": "7+5",
+        "children": [
+          {
+            "id": 189,
+            "o": 76554,
+            "text": "Gesti\u00f3n de aplicaciones Ruby",
+            "url": "76554.html",
+            "node": "7+5+0",
+            "leaf": true
+          },
+          {
+            "id": 190,
+            "o": 76555,
+            "text": "Gesti\u00f3n de versiones de Ruby mediante CLI",
+            "url": "76555.html",
+            "node": "7+5+1",
+            "leaf": true
+          },
+          {
+            "id": 191,
+            "o": 76553,
+            "text": "Ejecuci\u00f3n de tareas de Rake",
+            "url": "76553.html",
+            "node": "7+5+2",
+            "leaf": true
+          }
+        ]
+      },
+      {
+        "id": 192,
+        "o": 76652,
+        "text": "Soporte de Node.js",
+        "url": "76652.html",
+        "node": "7+6",
+        "leaf": true
+      },
+      {
+        "id": 193,
+        "o": 70614,
+        "text": "Creaci\u00f3n de sitios con Presence Builder",
+        "url": "70614.html",
+        "node": "7+7",
+        "children": [
+          {
+            "id": 194,
+            "o": 66281,
+            "text": "Familiariz\u00e1ndose con Presence Builder",
+            "url": "66281.html",
+            "node": "7+7+0",
+            "leaf": true
+          },
+          {
+            "id": 195,
+            "o": 66282,
+            "text": "Creaci\u00f3n de un sitio web",
+            "url": "66282.html",
+            "node": "7+7+1",
+            "leaf": true
+          },
+          {
+            "id": 196,
+            "o": 69967,
+            "text": "Importaci\u00f3n de sitios desde SiteBuilder 4.5",
+            "url": "69967.html",
+            "node": "7+7+2",
+            "leaf": true
+          },
+          {
+            "id": 197,
+            "o": 66284,
+            "text": "Edici\u00f3n de sitios web",
+            "url": "66284.html",
+            "node": "7+7+3",
+            "children": [
+              {
+                "id": 198,
+                "o": 69130,
+                "text": "Estructura: P\u00e1ginas y navegaci\u00f3n",
+                "url": "69130.html",
+                "node": "7+7+3+0",
+                "children": [
+                  {
+                    "id": 199,
+                    "o": 66452,
+                    "text": "Adici\u00f3n y eliminaci\u00f3n de p\u00e1ginas",
+                    "url": "66452.html",
+                    "node": "7+7+3+0+0",
+                    "leaf": true
+                  },
+                  {
+                    "id": 200,
+                    "o": 69132,
+                    "text": "Adici\u00f3n y eliminaci\u00f3n de enlaces de navegaci\u00f3n",
+                    "url": "69132.html",
+                    "node": "7+7+3+0+1",
+                    "leaf": true
+                  }
+                ]
+              },
+              {
+                "id": 201,
+                "o": 69127,
+                "text": "Dise\u00f1o: Plantillas de dise\u00f1o, apariencia, estilos, combinaci\u00f3n de colores y encabezado",
+                "url": "69127.html",
+                "node": "7+7+3+1",
+                "children": [
+                  {
+                    "id": 202,
+                    "o": 72007,
+                    "text": "Selecci\u00f3n de una plantilla de dise\u00f1o de sitio web",
+                    "url": "72007.html",
+                    "node": "7+7+3+1+0",
+                    "leaf": true
+                  },
+                  {
+                    "id": 203,
+                    "o": 66450,
+                    "text": "Cambio de la apariencia de su sitio web",
+                    "url": "66450.html",
+                    "node": "7+7+3+1+1",
+                    "leaf": true
+                  },
+                  {
+                    "id": 204,
+                    "o": 66451,
+                    "text": "Selecci\u00f3n de los colores, im\u00e1genes de fondo, fuentes y estilos para esquinas y m\u00e1rgenes de un sitio web",
+                    "url": "66451.html",
+                    "node": "7+7+3+1+2",
+                    "leaf": true
+                  },
+                  {
+                    "id": 205,
+                    "o": 69144,
+                    "text": "Cambio de los elementos del encabezado del sitio web",
+                    "url": "69144.html",
+                    "node": "7+7+3+1+3",
+                    "leaf": true
+                  }
+                ]
+              },
+              {
+                "id": 206,
+                "o": 69128,
+                "text": "Contenido: Texto, tablas, im\u00e1genes, v\u00eddeo, formularios y scripts",
+                "url": "69128.html",
+                "node": "7+7+3+2",
+                "children": [
+                  {
+                    "id": 207,
+                    "o": 69148,
+                    "text": "Texto, tablas, hiperv\u00ednculos, archivos Flash e im\u00e1genes",
+                    "url": "69148.html",
+                    "node": "7+7+3+2+0",
+                    "children": [
+                      {
+                        "id": 208,
+                        "o": 72157,
+                        "text": "Hiperv\u00ednculos, enlaces a direcciones de email y anclas",
+                        "url": "72157.html",
+                        "node": "7+7+3+2+0+0",
+                        "leaf": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": 209,
+                    "o": 72012,
+                    "text": "Galer\u00eda de im\u00e1genes",
+                    "url": "72012.html",
+                    "node": "7+7+3+2+1",
+                    "leaf": true
+                  },
+                  {
+                    "id": 210,
+                    "o": 72015,
+                    "text": "Control deslizante de im\u00e1genes",
+                    "url": "72015.html",
+                    "node": "7+7+3+2+2",
+                    "leaf": true
+                  },
+                  {
+                    "id": 211,
+                    "o": 69145,
+                    "text": "Adici\u00f3n de v\u00eddeos",
+                    "url": "69145.html",
+                    "node": "7+7+3+2+3",
+                    "leaf": true
+                  },
+                  {
+                    "id": 212,
+                    "o": 69146,
+                    "text": "Formulario de contacto",
+                    "url": "69146.html",
+                    "node": "7+7+3+2+4",
+                    "leaf": true
+                  },
+                  {
+                    "id": 213,
+                    "o": 70024,
+                    "text": "Blog",
+                    "url": "70024.html",
+                    "node": "7+7+3+2+5",
+                    "leaf": true
+                  },
+                  {
+                    "id": 214,
+                    "o": 70032,
+                    "text": "Comentarios",
+                    "url": "70032.html",
+                    "node": "7+7+3+2+6",
+                    "leaf": true
+                  },
+                  {
+                    "id": 215,
+                    "o": 70025,
+                    "text": "Documentos y otros archivos descargables",
+                    "url": "70025.html",
+                    "node": "7+7+3+2+7",
+                    "leaf": true
+                  },
+                  {
+                    "id": 216,
+                    "o": 66416,
+                    "text": "Botones para la compartici\u00f3n en redes sociales",
+                    "url": "66416.html",
+                    "node": "7+7+3+2+8",
+                    "leaf": true
+                  },
+                  {
+                    "id": 217,
+                    "o": 69151,
+                    "text": "B\u00fasqueda en un sitio",
+                    "url": "69151.html",
+                    "node": "7+7+3+2+9",
+                    "leaf": true
+                  },
+                  {
+                    "id": 218,
+                    "o": 69126,
+                    "text": "Tienda online",
+                    "url": "69126.html",
+                    "node": "7+7+3+2+10",
+                    "leaf": true
+                  },
+                  {
+                    "id": 219,
+                    "o": 72025,
+                    "text": "Mapa",
+                    "url": "72025.html",
+                    "node": "7+7+3+2+11",
+                    "leaf": true
+                  },
+                  {
+                    "id": 220,
+                    "o": 69150,
+                    "text": "(Avanzado) Scripts personalizados",
+                    "url": "69150.html",
+                    "node": "7+7+3+2+12",
+                    "leaf": true
+                  },
+                  {
+                    "id": 221,
+                    "o": 69147,
+                    "text": "Publicidad",
+                    "url": "69147.html",
+                    "node": "7+7+3+2+13",
+                    "leaf": true
+                  },
+                  {
+                    "id": 222,
+                    "o": 73309,
+                    "text": "Feed de Twitter",
+                    "url": "73309.html",
+                    "node": "7+7+3+2+14",
+                    "leaf": true
+                  },
+                  {
+                    "id": 223,
+                    "o": 73312,
+                    "text": "Amazon aStore",
+                    "url": "73312.html",
+                    "node": "7+7+3+2+15",
+                    "leaf": true
+                  }
+                ]
+              },
+              {
+                "id": 224,
+                "o": 73493,
+                "text": "Sitios web en m\u00faltiples idiomas",
+                "url": "73493.html",
+                "node": "7+7+3+3",
+                "leaf": true
+              },
+              {
+                "id": 225,
+                "o": 66449,
+                "text": "Par\u00e1metros de configuraci\u00f3n y herramientas para webmasters",
+                "url": "66449.html",
+                "node": "7+7+3+4",
+                "leaf": true
+              }
+            ]
+          },
+          {
+            "id": 226,
+            "o": 68657,
+            "text": "Guardado y carga de copias de un sitio web",
+            "url": "68657.html",
+            "node": "7+7+4",
+            "leaf": true
+          },
+          {
+            "id": 227,
+            "o": 73494,
+            "text": "Optimizaci\u00f3n de sitios para su visualizaci\u00f3n en dispositivos m\u00f3viles",
+            "url": "73494.html",
+            "node": "7+7+5",
+            "leaf": true
+          },
+          {
+            "id": 228,
+            "o": 66287,
+            "text": "Publicaci\u00f3n de un sitio web en Internet",
+            "url": "66287.html",
+            "node": "7+7+6",
+            "leaf": true
+          },
+          {
+            "id": 229,
+            "o": 68673,
+            "text": "Publicaci\u00f3n de la copia de un sitio web en Facebook",
+            "url": "68673.html",
+            "node": "7+7+7",
+            "leaf": true
+          },
+          {
+            "id": 230,
+            "o": 71061,
+            "text": "Visualizaci\u00f3n de estad\u00edsticas de visitas al sitio, comentarios y pedidos nuevos en el panel de informaci\u00f3n",
+            "url": "71061.html",
+            "node": "7+7+8",
+            "leaf": true
+          },
+          {
+            "id": 231,
+            "o": 68663,
+            "text": "Eliminaci\u00f3n de sitios web",
+            "url": "68663.html",
+            "node": "7+7+9",
+            "leaf": true
+          }
+        ]
+      },
+      {
+        "id": 232,
+        "o": 70615,
+        "text": "Acceso a sus sitios web mediante FTP",
+        "url": "70615.html",
+        "node": "7+8",
+        "children": [
+          {
+            "id": 233,
+            "o": 65186,
+            "text": "Cambio de las credenciales de acceso FTP",
+            "url": "65186.html",
+            "node": "7+8+0",
+            "leaf": true
+          },
+          {
+            "id": 234,
+            "o": 65153,
+            "text": "Adici\u00f3n de cuentas FTP",
+            "url": "65153.html",
+            "node": "7+8+1",
+            "leaf": true
+          },
+          {
+            "id": 235,
+            "o": 65194,
+            "text": "Configuraci\u00f3n de acceso FTP an\u00f3nimo",
+            "url": "65194.html",
+            "node": "7+8+2",
+            "leaf": true
+          }
+        ]
+      },
+      {
+        "id": 236,
+        "o": 70616,
+        "text": "Configuraci\u00f3n de correo",
+        "url": "70616.html",
+        "node": "7+9",
+        "children": [
+          {
+            "id": 237,
+            "o": 73389,
+            "text": "Configuraci\u00f3n de correo de los dominios",
+            "url": "73389.html",
+            "node": "7+9+0",
+            "leaf": true
+          },
+          {
+            "id": 238,
+            "o": 65700,
+            "text": "Adici\u00f3n de cuentas de correo",
+            "url": "65700.html",
+            "node": "7+9+1",
+            "leaf": true
+          },
+          {
+            "id": 239,
+            "o": 73361,
+            "text": "Configuraci\u00f3n de cuenta de correo",
+            "url": "73361.html",
+            "node": "7+9+2",
+            "children": [
+              {
+                "id": 240,
+                "o": 65144,
+                "text": "Cambio de la contrase\u00f1a de una cuenta de correo",
+                "url": "65144.html",
+                "node": "7+9+2+0",
+                "leaf": true
+              },
+              {
+                "id": 241,
+                "o": 65702,
+                "text": "Establecimiento de redireccionamientos de correo",
+                "url": "65702.html",
+                "node": "7+9+2+1",
+                "leaf": true
+              },
+              {
+                "id": 242,
+                "o": 65701,
+                "text": "Creaci\u00f3n de alias de correo",
+                "url": "65701.html",
+                "node": "7+9+2+2",
+                "leaf": true
+              },
+              {
+                "id": 243,
+                "o": 65703,
+                "text": "Establecimiento de respuestas autom\u00e1ticas",
+                "url": "65703.html",
+                "node": "7+9+2+3",
+                "leaf": true
+              },
+              {
+                "id": 244,
+                "o": 65690,
+                "text": "Protecci\u00f3n antispam",
+                "url": "65690.html",
+                "node": "7+9+2+4",
+                "leaf": true
+              },
+              {
+                "id": 245,
+                "o": 65689,
+                "text": "Protecci\u00f3n antivirus",
+                "url": "65689.html",
+                "node": "7+9+2+5",
+                "leaf": true
+              },
+              {
+                "id": 246,
+                "o": 72412,
+                "text": "Servicios adicionales",
+                "url": "72412.html",
+                "node": "7+9+2+6",
+                "leaf": true
+              }
+            ]
+          },
+          {
+            "id": 247,
+            "o": 73362,
+            "text": "Limitaci\u00f3n del correo saliente",
+            "url": "73362.html",
+            "node": "7+9+3",
+            "leaf": true
+          },
+          {
+            "id": 248,
+            "o": 65696,
+            "text": "Uso de listas de correo (Windows)",
+            "url": "65696.html",
+            "node": "7+9+4",
+            "leaf": true
+          }
+        ]
+      },
+      {
+        "id": 249,
+        "o": 70617,
+        "text": "Programaci\u00f3n de tareas",
+        "url": "70617.html",
+        "node": "7+10",
+        "leaf": true
+      },
+      {
+        "id": 250,
+        "o": 70619,
+        "text": "Bases de datos de sitios web",
+        "url": "70619.html",
+        "node": "7+11",
+        "children": [
+          {
+            "id": 251,
+            "o": 65157,
+            "text": "Creaci\u00f3n de bases de datos",
+            "url": "65157.html",
+            "node": "7+11+0",
+            "leaf": true
+          },
+          {
+            "id": 252,
+            "o": 71841,
+            "text": "Acceso a bases de datos",
+            "url": "71841.html",
+            "node": "7+11+1",
+            "leaf": true
+          },
+          {
+            "id": 253,
+            "o": 74497,
+            "text": "Visualizaci\u00f3n de los datos de conexi\u00f3n",
+            "url": "74497.html",
+            "node": "7+11+2",
+            "leaf": true
+          },
+          {
+            "id": 254,
+            "o": 71563,
+            "text": "Copia de bases de datos",
+            "url": "71563.html",
+            "node": "7+11+3",
+            "leaf": true
+          },
+          {
+            "id": 255,
+            "o": 74647,
+            "text": "Copia y restauraci\u00f3n de bases de datos",
+            "url": "74647.html",
+            "node": "7+11+4",
+            "leaf": true
+          },
+          {
+            "id": 256,
+            "o": 69538,
+            "text": "Exportaci\u00f3n e importaci\u00f3n de volcados de bases de datos",
+            "url": "69538.html",
+            "node": "7+11+5",
+            "leaf": true
+          },
+          {
+            "id": 257,
+            "o": 69539,
+            "text": "Administraci\u00f3n de cuentas de usuario de base de datos",
+            "url": "69539.html",
+            "node": "7+11+6",
+            "leaf": true
+          },
+          {
+            "id": 258,
+            "o": 73491,
+            "text": "Configuraci\u00f3n de reglas de acceso personalizadas",
+            "url": "73491.html",
+            "node": "7+11+7",
+            "leaf": true
+          },
+          {
+            "id": 259,
+            "o": 74498,
+            "text": "Verificaci\u00f3n y reparaci\u00f3n de bases de datos",
+            "url": "74498.html",
+            "node": "7+11+8",
+            "leaf": true
+          },
+          {
+            "id": 260,
+            "o": 74499,
+            "text": "Transferencia de una base de datos a otra suscripci\u00f3n",
+            "url": "74499.html",
+            "node": "7+11+9",
+            "leaf": true
+          },
+          {
+            "id": 261,
+            "o": 65285,
+            "text": "Acceso a bases de datos mediante ODBC (Windows)",
+            "url": "65285.html",
+            "node": "7+11+10",
+            "leaf": true
+          }
+        ]
+      },
+      {
+        "id": 262,
+        "o": 70620,
+        "text": "Realizaci\u00f3n de backups y restauraciones de sitios web",
+        "url": "70620.html",
+        "node": "7+12",
+        "children": [
+          {
+            "id": 263,
+            "o": 65198,
+            "text": "Copia de datos",
+            "url": "65198.html",
+            "node": "7+12+0",
+            "children": [
+              {
+                "id": 264,
+                "o": 65199,
+                "text": "Creaci\u00f3n de un backup de la cuenta y de los sitios web",
+                "url": "65199.html",
+                "node": "7+12+0+0",
+                "leaf": true
+              },
+              {
+                "id": 265,
+                "o": 65203,
+                "text": "Uso del almacenamiento de backups de bases de datos (Windows)",
+                "url": "65203.html",
+                "node": "7+12+0+1",
+                "leaf": true
+              },
+              {
+                "id": 266,
+                "o": 65202,
+                "text": "Programaci\u00f3n de backups",
+                "url": "65202.html",
+                "node": "7+12+0+2",
+                "leaf": true
+              }
+            ]
+          },
+          {
+            "id": 267,
+            "o": 65201,
+            "text": "Carga, descarga y eliminaci\u00f3n de backups",
+            "url": "65201.html",
+            "node": "7+12+1",
+            "leaf": true
+          },
+          {
+            "id": 268,
+            "o": 65200,
+            "text": "Restauraci\u00f3n de backups",
+            "url": "65200.html",
+            "node": "7+12+2",
+            "children": [
+              {
+                "id": 269,
+                "o": 652000000,
+                "text": "Restauraci\u00f3n de todos los objetos",
+                "url": "65200.html#restoring-all-objects",
+                "node": "7+12+2+0",
+                "leaf": true
+              },
+              {
+                "id": 270,
+                "o": 652000001,
+                "text": "Restauraci\u00f3n de objetos individuales",
+                "url": "65200.html#restoring-individual-objects",
+                "node": "7+12+2+1",
+                "leaf": true
+              },
+              {
+                "id": 271,
+                "o": 652000002,
+                "text": "(Plesk para Windows) Reparaci\u00f3n de bases de datos posterior a una restauraci\u00f3n",
+                "url": "65200.html#plesk-for-windows-post-restoration-database-repair",
+                "node": "7+12+2+2",
+                "leaf": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "o": 80003,
+    "text": "Plesk eCommerce Toolkit",
+    "url": "80003.html",
+    "node": "8",
+    "children": [
+      {
+        "id": 273,
+        "o": 80005,
+        "text": "Licencias de Plesk eCommerce Toolkit",
+        "url": "80005.html",
+        "node": "8+0",
+        "leaf": true
+      },
+      {
+        "id": 274,
+        "o": 80006,
+        "text": "Configuraci\u00f3n de su tienda online",
+        "url": "80006.html",
+        "node": "8+1",
+        "leaf": true
+      },
+      {
+        "id": 275,
+        "o": 80007,
+        "text": "Configuraci\u00f3n de la tienda online",
+        "url": "80007.html",
+        "node": "8+2",
+        "leaf": true
+      },
+      {
+        "id": 276,
+        "o": 80008,
+        "text": "Eliminaci\u00f3n de Plesk eCommerce Toolkit",
+        "url": "80008.html",
+        "node": "8+3",
+        "leaf": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,1154 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Adición y eliminación de dominios</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="author" title="Sobre este documento" href="about.html" />
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="Adición de subdominios" href="65180.html" />
+    <link rel="prev" title="Dominios y DNS" href="69429.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Administrator's Guide
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about.html">Información sobre Plesk</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="74769.html">Acceso a Plesk por primera vez</a></li>
+<li class="toctree-l2"><a class="reference internal" href="70562.html">El GUI de Plesk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="70035.html">Plesk en modo restringido</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="80014.html">Creación de sitios web</a></li>
+<li class="toctree-l1"><a class="reference internal" href="71932.html">Servidores web</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="71933.html">Servidores web nginx y Apache (Linux)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="70837.html">Apache con nginx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="72009.html">Personalización de la configuración de Apache para los hosts virtuales</a></li>
+<li class="toctree-l3"><a class="reference internal" href="71997.html">Personalización de la configuración de nginx para los hosts virtuales</a></li>
+<li class="toctree-l3"><a class="reference internal" href="79185.html">Activación de la copia en caché de nginx</a></li>
+<li class="toctree-l3"><a class="reference internal" href="72074.html">Optimización de un servidor web Apache</a></li>
+<li class="toctree-l3"><a class="reference internal" href="76461.html">Soporte de HTTP/2 en Plesk</a></li>
+<li class="toctree-l3"><a class="reference internal" href="68678.html">(Plesk for Linux) Apache and Nginx Configuration Files</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="71995.html">Servidor web IIS (Windows)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="72044.html">Personalización de la configuración de IIS para los sitios web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="60323.html">Grupo de aplicaciones IIS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="74485.html">Seguimiento de peticiones fallidas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="78852.html">Soporte de compresión dinámica de IIS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="70578.html">Hosting web</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="68695.html">Estructura del directorio de un sitio web</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="77500.html">Definición de una raíz de documentos personalizada</a></li>
+<li class="toctree-l3"><a class="reference internal" href="71983.html">Definición de una plantilla personalizada de host virtual</a></li>
+<li class="toctree-l3"><a class="reference internal" href="68806.html">Estructura de host virtual (Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="71975.html">Estructura de host virtual (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="70219.html">Previsualización de un sitio web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="70668.html">Administración de PHP</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="75153.html">Instalación de PHP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="75149.html">Configuración de los controladores de PHP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="75811.html">Configuración y extensiones de PHP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="75145.html">Tipos de controladores de PHP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="75356.html">Adición de versiones personalizadas de PHP (Linux)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="76345.html">Ejecución de scripts PHP a través de la línea de comandos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="79190.html">Personalización de los parámetros PHP</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="60322.html">Configuración de ASP.NET (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="71434.html">Correo</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="59430.html">Configuración de las opciones de correo a nivel del servidor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72346.html">Uso de Plesk sin un servidor de correo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72349.html">Eliminación de la funcionalidad de mensajería del panel del cliente</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72350.html">Uso de otros softwares de servidor de correo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59431.html">Herramientas antispam</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="80013.html">Protección frente a spam</a></li>
+<li class="toctree-l3"><a class="reference internal" href="59432.html">Filtro antispam SpamAssassin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="59433.html">Protección DKIM, SPF y DMARC</a></li>
+<li class="toctree-l3"><a class="reference internal" href="59434.html">Listas negras del DNS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="59436.html">Listas blancas y negras a nivel de servidor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="63249.html">Greylisting (Linux)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="71349.html">Protección contra spam saliente</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="73368.html">Límites personalizados</a></li>
+<li class="toctree-l3"><a class="reference internal" href="73369.html">Cómo funcionan los límites</a></li>
+<li class="toctree-l3"><a class="reference internal" href="73370.html">Notificaciones sobre los intentos de superar los límites</a></li>
+<li class="toctree-l3"><a class="reference internal" href="73371.html">Estadísticas e informes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="73392.html">Protección frente a posibles interceptaciones de correo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59437.html">Software antivirus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="66411.html">Software de webmail</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59438.html">Listas de correo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59416.html">Cola de correo (Linux)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59283.html">Notificaciones masivas por email</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59422.html">Notificaciones de correo automáticas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59426.html">(Plesk para Linux) Notificaciones sobre cuota de buzón de correo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="76668.html">(Plesk para Windows) Soporte de SmarterMail remoto</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="59440.html">DNS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="72225.html">Publicación de su sitio web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72226.html">Configuración DNS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72212.html">Zonas DNS para subdominios</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72217.html">Configuración de las opciones del DNS nivel del servidor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72219.html">Restricción de transferencias de zonas DNS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72218.html">Restricción del acceso de los usuarios a zonas DNS de otros usuarios</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72305.html">Desactivación del servicio DNS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72230.html">Uso de servidores DNS externos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="79004.html">Servidor DNS secundario</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74239.html">Ofrecer servidores DNS redundantes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72907.html">Plesk sin un servidor DNS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="76434.html">Uso de DNSSEC</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="59427.html">Servidores de bases de datos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="59428.html">Adición y eliminación de servidores de bases de datos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="80017.html">Protección de conexiones a servidores de base de datos MySQL remotas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59429.html">Configuración de los parámetros de backup para SQL Server remotos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72879.html">Cambio de las credenciales del administrador de la base de datos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74697.html">Permisos y roles de los usuarios de bases de datos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72875.html">Preferencias de hosting de bases de datos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72893.html">Herramientas de gestión de bases de datos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="60317.html">(Plesk para Windows) Conexión a bases de datos externas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74496.html">Mover bases de datos a otra suscripción</a></li>
+<li class="toctree-l2"><a class="reference internal" href="73509.html">Acceso remoto a bases de datos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="75181.html">Inhabilitar la carga del volcado de datos de las bases de datos de Microsoft SQL Server</a></li>
+<li class="toctree-l2"><a class="reference internal" href="75182.html">(Plesk para Windows) Modificación de la ubicación de datos de MySQL Server de los clientes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="70568.html">Administración del servidor</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="59410.html">Administración de direcciones IP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="64993.html">Programación de tareas</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="78064.html">Configuración del shell de tareas programadas</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="59423.html">Configuración del servidor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59418.html">Servicios del sistema</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59420.html">Fecha y hora del sistema</a></li>
+<li class="toctree-l2"><a class="reference internal" href="73381.html">Protección frente a posibles ataques de fuerza bruta (Fail2Ban)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="73382.html">Gestión de jails de Fail2Ban</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="73383.html">Firewall para aplicaciones web (ModSecurity)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="75669.html">Conjuntos de reglas de Atomic ModSecurity</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="68930.html">Aplicaciones web</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="68949.html">Cómo las aplicaciones pasan a estar disponibles para sus clientes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="68933.html">Inventario de aplicaciones</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="60305.html">Preferencias de la sesión</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74643.html">(Plesk para Linux) Configuración del modo FTP pasivo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="60327.html">Cuentas de administrador adicionales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74627.html">Soporte para Dist-Upgrade</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59205.html">Controladores de eventos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="67897.html">Parámetros de eventos pasados por controladores de eventos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="75822.html">(Plesk para Linux) Actualizaciones del sistema</a></li>
+<li class="toctree-l2"><a class="reference internal" href="70443.html">Componente (de monitorización del sistema) Watchdog</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="76187.html">Ajuste de la configuración de Watchdog</a></li>
+<li class="toctree-l3"><a class="reference internal" href="76188.html">Monitorización de los servicios de sistema</a></li>
+<li class="toctree-l3"><a class="reference internal" href="76190.html">Monitorización del uso del disco</a></li>
+<li class="toctree-l3"><a class="reference internal" href="76189.html">Análisis del servidor para detectar la existencia de malware</a></li>
+<li class="toctree-l3"><a class="reference internal" href="18320.html">Visualización de las estadísticas de uso de RAM y CPU</a></li>
+<li class="toctree-l3"><a class="reference internal" href="11376.html">Resolución de problemas</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="70444.html">Reinicio automático de servicios bloqueados con Systemd</a></li>
+<li class="toctree-l2"><a class="reference internal" href="80012.html">Monitorización de los registros del sistema y del servidor de correo</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="70698.html">Administración de Plesk</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="59444.html">Licenciamiento de Plesk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59464.html">Protección de Plesk</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="59465.html">Restricción del acceso administrativo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="71930.html">Restricción de acceso remoto mediante la API de Plesk</a></li>
+<li class="toctree-l3"><a class="reference internal" href="71081.html">Establecimiento de la directiva de seguridad de las contraseñas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="80021.html">Cambiar el nombre de usuario del administrador de Plesk</a></li>
+<li class="toctree-l3"><a class="reference internal" href="72173.html">Uso de FTP seguro</a></li>
+<li class="toctree-l3"><a class="reference internal" href="76787.html">(Plesk para Windows) Directiva de controladores personalizada</a></li>
+<li class="toctree-l3"><a class="reference internal" href="68308.html">SSL/TLS y direcciones IP compartidas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="59466.html">Protección de Plesk y del servidor de correo mediante certificados SSL/TLS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="80020.html">(Plesk para Linux) Mejora de la protección de las conexiones al servidor usando DANE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="78691.html">(Plesk para Windows) Configuración del Soporte para certificados SSL centralizado en Plesk</a></li>
+<li class="toctree-l3"><a class="reference internal" href="76416.html">Protección frente a clickjacking</a></li>
+<li class="toctree-l3"><a class="reference internal" href="79044.html">Protección frente a redireccionamientos abiertos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="79045.html">Mitigación de la vulnerabilidad de los enlaces simbólicos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="79045.html#mitigating-the-vulnerability">Mitigación de la vulnerabilidad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="78898.html">Conformidad PCI DSS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="78899.html">(Plesk para Linux) Ajuste Plesk para el cumplimiento de PCI DSS</a></li>
+<li class="toctree-l4"><a class="reference internal" href="78901.html">(Plesk para Windows) Ajuste Plesk para el cumplimiento de PCI DSS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="80002.html">Acceso automático a Plesk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="64950.html">Puertos usados por Plesk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="64949.html">Ejecución de Plesk detrás de un router con NAT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="60325.html">(Plesk para Windows) Configuración del rango de puertos para el modo FTP pasivo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59472.html">Actualización de su contraseña y de la información de contacto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="60306.html">Componentes de Plesk</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="74719.html">Agregar y eliminar componentes de Plesk</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="78308.html">(Plesk para Linux) Cgroups Manager</a></li>
+<li class="toctree-l2"><a class="reference internal" href="70390.html">Administración de Plesk mediante dispositivos móviles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="79314.html">Suscripción a newsletters de Plesk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74635.html">Informes técnicos de Plesk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="80000.html">Notificaciones en la IU de Plesk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="79310.html">Repair Kit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="74649.html">Utilidad de reparación de Plesk</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="74650.html">Utilidad de reparación de Plesk: All</a></li>
+<li class="toctree-l3"><a class="reference internal" href="74652.html">Utilidad de reparación de Plesk: Correo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="74654.html">Utilidad de reparación de Plesk: Web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="74659.html">Utilidad de reparación de Plesk: DNS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="74662.html">Utilidad de reparación de Plesk: FTP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="75675.html">Utilidad de reparación de Plesk: Sistema de archivos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="74665.html">Utilidad de reparación de Plesk: Base de datos de Plesk</a></li>
+<li class="toctree-l3"><a class="reference internal" href="74671.html">Utilidad de reparación de Plesk: MySQL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="74674.html">Utilidad de reparación de Plesk: Microsoft SQL Server</a></li>
+<li class="toctree-l3"><a class="reference internal" href="74677.html">Utilidad de reparación de Plesk: Instalación</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="75326.html">Gestión de permisos ICP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72046.html">(Plesk para Linux) El firewall de Plesk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="64951.html">El firewall de Plesk (Windows)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="75823.html">Uso de Docker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="76658.html">Enabling Node.js Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="78509.html">Archivo de configuración panel.ini</a></li>
+<li class="toctree-l2"><a class="reference internal" href="78586.html">Administración de la configuración de Let’s Encrypt</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="78602.html">Personalización de la interfaz de Plesk</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="69527.html">Apariencia y personalización (branding)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="69012.html">Preferencias de la interfaz</a></li>
+<li class="toctree-l3"><a class="reference internal" href="59447.html">Idioma de la interfaz del administrador</a></li>
+<li class="toctree-l3"><a class="reference internal" href="59455.html">Configuración de los idiomas soportados</a></li>
+<li class="toctree-l3"><a class="reference internal" href="65820.html">Adición y eliminación de botones personalizados</a></li>
+<li class="toctree-l3"><a class="reference internal" href="59452.html">Personalización y temas</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="70906.html">Uso de temas personalizados</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="70907.html">Obtención de un paquete de temas de Plesk</a></li>
+<li class="toctree-l3"><a class="reference internal" href="70909.html">Modificación de los archivos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="70908.html">Instalación de temas en Plesk</a></li>
+<li class="toctree-l3"><a class="reference internal" href="70910.html">Eliminación de temas de Plesk</a></li>
+<li class="toctree-l3"><a class="reference internal" href="78086.html">Selección de una combinación de colores</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="68540.html">Ocultación y modificación de los elementos del GUI de Plesk</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="67245.html">Servicios de venta de certificados SSL/TLS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="68221.html">Ubicaciones de los vínculos para la compra y visualización de certificados SSL/TLS</a></li>
+<li class="toctree-l4"><a class="reference internal" href="75508.html">Cambio de URLs de un vendedor de certificados SSL/TLS</a></li>
+<li class="toctree-l4"><a class="reference internal" href="75509.html">Ocultación de los botones para la visualización y adquisición de certificados SSL/TLS</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="67246.html">Vínculos al sitio web del proveedor</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="68226.html">Ubicación del vínculo al sitio web del proveedor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="75510.html">Cambio de la URL del botón Ver Servicios</a></li>
+<li class="toctree-l4"><a class="reference internal" href="75511.html">Ocultación del botón Ver Servicios</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="67396.html">Botones de Presence Builder</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="68234.html">Ubicación de los botones de Presence Builder</a></li>
+<li class="toctree-l4"><a class="reference internal" href="68235.html">Ocultación de los botones de Presence Builder</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="67398.html">Controles de servicio de correo</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="68237.html">Ubicación de los controles de servicio de correo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="75512.html">Ocultación de los controles de servicio de correo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="75513.html">Visualización de los controles del servicio de correo</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="67399.html">Promociones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="53231.html">Enlace al servicio de soporte online</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="53303.html">Creación de un enlace al formulario de soporte de su sitio</a></li>
+<li class="toctree-l4"><a class="reference internal" href="53304.html">Creación de un enlace para la escritura de un correo electrónico</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="70924.html">El botón Síganos en Facebook</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="70925.html">Ubicación del botón Síganos en Facebook</a></li>
+<li class="toctree-l4"><a class="reference internal" href="70928.html">Cómo ocultar el botón Síganos en Facebook</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="78993.html">El botón Seguir de Twitter</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="78994.html">Ubicación del botón Seguir</a></li>
+<li class="toctree-l4"><a class="reference internal" href="78996.html">Ocultación del botón Seguir</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="71145.html">Widget de valoración del producto</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="71147.html">Ubicación del widget</a></li>
+<li class="toctree-l4"><a class="reference internal" href="75515.html">Ocultación del widget</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="72356.html">Fuentes RSS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="72497.html">Votación de prestaciones nuevas</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="80015.html">Traducción de Plesk</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="80019.html">Idiomas de interfaz soportados en Plesk</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="59215.html">Actualizaciones secundarias de Plesk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="78748.html">Extensiones de Plesk</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="78328.html">Catálogo de extensiones</a></li>
+<li class="toctree-l2"><a class="reference internal" href="78409.html">Reventa de extensiones</a></li>
+<li class="toctree-l2"><a class="reference internal" href="80003.html">Plesk eCommerce Toolkit</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="80004.html">Instalación de Plesk eCommerce Toolkit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="80005.html">Licencias de Plesk eCommerce Toolkit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="80006.html">Configuración de su tienda online</a></li>
+<li class="toctree-l3"><a class="reference internal" href="80007.html">Configuración de la tienda online</a></li>
+<li class="toctree-l3"><a class="reference internal" href="80008.html">Eliminación de Plesk eCommerce Toolkit</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="79156.html">Social Login</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="69529.html">Estadísticas y monitorización</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="59223.html">Registro de acciones</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="59224.html">Configuración del registro de acciones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="59225.html">Descarga del registro de acciones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="59226.html">Vaciado del registro de acciones</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="59249.html">Visualización de estadísticas</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="59251.html">Automatización de la generación y entrega de informes por email</a></li>
+<li class="toctree-l3"><a class="reference internal" href="60927.html">Visualización de estadísticas de protección antispam y antivirus (Windows)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="71164.html">Información sobre el cálculo de uso del espacio en disco</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="68886.html">Monitoring</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59246.html">Monitorización de las conexiones a Plesk</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="59256.html">Creación y restauración de backups</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="59265.html">Configuración de backup global</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59259.html">Configuración de un almacenamiento remoto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="80016.html">(Plesk para Linux) Almacenamiento de backups y archivos de sitio web en un servidor remoto mediante NFS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59257.html">Realización de backups de todo el servidor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59267.html">Realización de backups de cuentas y sitios individuales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59264.html">Programación de backups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="75803.html">Backup incremental</a></li>
+<li class="toctree-l2"><a class="reference internal" href="68468.html">Registros de backup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="68469.html">Telemetría de backup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59263.html">Restauración de datos mediante archivos comprimidos de backup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59261.html">Descarga de archivos de backup del servidor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59260.html">Carga de archivos de backup al servidor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="59262.html">Eliminación de archivos de backup del servidor</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="70622.html">Clientes y revendedores</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="70623.html">Planes de hosting y suscripciones</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="65118.html">Relación entre planes y suscripciones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="70624.html">Creación de planes de hosting</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="70663.html">Especificación de las propiedades de un plan</a></li>
+<li class="toctree-l4"><a class="reference internal" href="70726.html">Ofrezca servicios adicionales</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="70673.html">Creación de planes complementarios</a></li>
+<li class="toctree-l3"><a class="reference internal" href="70727.html">Suscripción de clientes a planes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="65124.html">Administración de clientes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="65125.html">Administración de suscripciones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="70030.html">Oferta de servicio a clientes no técnicos</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="70625.html">Planes de revendedor</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="70715.html">Creación de planes de revendedor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="70734.html">Suscripción de revendedores a planes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="73398.html">Conversión de revendedores en clientes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="73506.html">¿Cómo ayudar a los revendedores a gestionar sus suscripciones?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="75223.html">Navegación rápida entre los distintos objetos de Plesk</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="70741.html">Administración de sitios web</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="70612.html">Primeros pasos en Plesk</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="64639.html">Creación de su primer sitio web</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="65159.html">1. Create Your Site</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="65137.html">Presence Builder</a></li>
+<li class="toctree-l5"><a class="reference internal" href="70602.html">Sistemas de gestión de contenido</a></li>
+<li class="toctree-l5"><a class="reference internal" href="70312.html">Carga de contenido</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="65145.html">Carga de contenido mediante FTP</a></li>
+<li class="toctree-l6"><a class="reference internal" href="65148.html">Carga de contenido a través del administrador de archivos</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="65156.html">2. Preview Your Site</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65174.html">3. Submit Your Sites to Search Engines</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="69276.html">Creación de cuentas de correo</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="69277.html">1. Create Mail Account</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65691.html">2. Access Your Mailbox</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="69294.html">Acceso mediante webmail</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65697.html">Acceso mediante Microsoft Office Outlook 2019</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65692.html">Acceso mediante Microsoft Office Outlook 2016</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65693.html">Acceso mediante Microsoft Outlook Express</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65694.html">Acceso mediante Mozilla Thunderbird</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65695.html">Acceso mediante Apple Mail</a></li>
+<li class="toctree-l5"><a class="reference internal" href="75203.html">Acceso desde un iPhone</a></li>
+<li class="toctree-l5"><a class="reference internal" href="75211.html">Acceso mediante Gmail en Android</a></li>
+<li class="toctree-l5"><a class="reference internal" href="75212.html">Acceso mediante Microsoft Outlook en Android</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="69283.html">Visualización de estadísticas de visitas al sitio</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="70611.html">Administración de cuentas de cliente</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="65141.html">Actualización de su contraseña y de la información de contacto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="70313.html">Visualización del resumen de una suscripción</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="70314.html">Recursos asignados y consumidos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="70315.html">Prestaciones de hosting disponibles para sus sitios web</a></li>
+<li class="toctree-l4"><a class="reference internal" href="74878.html">Permisos disponibles para su sitio web</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="65154.html">Visualización de estadísticas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="65210.html">Archivos de registro</a></li>
+<li class="toctree-l3"><a class="reference internal" href="80009.html">(Plesk para Linux) Comprobación de registros de sitios web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="69329.html">Administración de cuentas de usuario adicionales</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="69331.html">Cuentas de usuario adicionales</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65822.html">Creación de botones personalizados</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="reference internal" href="70613.html">Sitios web y dominios</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="69429.html">Dominios y DNS</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Adición y eliminación de dominios</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65180.html">Adición de subdominios</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65286.html">Adición de alias de dominio</a></li>
+<li class="toctree-l4"><a class="reference internal" href="70111.html">Adición de subdominios wildcard (Linux)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="72057.html">Adición de redireccionadores de dominio</a></li>
+<li class="toctree-l4"><a class="reference internal" href="69433.html">Configuración de DNS para un dominio</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="65185.html">Plesk como servidor DNS principal</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65185.html#managing-dns-records">Administración de registros DNS</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65185.html#applying-dns-template-changes-plesk-for-linux-only">Aplicación de cambios en la plantilla DNS (sólo Plesk para Linux)</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65192.html">Plesk como servidor DNS secundario</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65628.html">Configuración DNS del registrador en Plesk</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65628.html#additional-operations-on-domains">Otras operaciones en dominios</a></li>
+<li class="toctree-l5"><a class="reference internal" href="79648.html">Configuración del DNS mediante Domain Connect</a></li>
+<li class="toctree-l5"><a class="reference internal" href="79648.html#putting-a-website-online-via-domain-connect">Publicación de un sitio web mediante Domain Connect</a></li>
+<li class="toctree-l5"><a class="reference internal" href="79648.html#adding-additional-third-party-services">Adición de servicios de terceros adicionales</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="76433.html">Configuración de DNSSEC para un dominio</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="69455.html">Configuración de hosting</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="72050.html">Configuración general</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="72051.html">Tipos de hosting</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72051.html#standard-forwarding">Redireccionamiento estándar</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72051.html#frame-forwarding">Redireccionamiento por marcos</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72339.html">Estado del sitio web</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="69457.html">Configuración de scripting web</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="70742.html">Configuración de PHP</a></li>
+<li class="toctree-l5"><a class="reference internal" href="75145_1.html">Tipos de controladores de PHP</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65283.html">Configuración de ASP.NET (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="71929.html">Configuración del servidor web</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="72320.html">Configuración de nginx y Apache</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72320.html#known-limitations">Limitaciones conocidas</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72320.html#serve-all-static-content-via-nginx">Servir todo el contenido estático mediante nginx</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72320.html#serve-only-files-with-specific-extensions-via-nginx">Servir únicamente archivos con determinadas extensiones mediante nginx</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72320.html#serve-all-static-and-dynamic-content-via-apache">Servir todo el contenido estático y dinámico mediante Apache</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72082.html">Configuración de servidor web IIS</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72082.html#common-settings">Configuración común</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72082.html#directory-security-settings">Configuración de seguridad del directorio</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72082.html#access-restriction-settings">Configuración de restricción de acceso</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72082.html#the-default-value-of-server-settings">El valor predeterminado de la configuración del servidor</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="69462.html">Contenido de un sitio web</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="74102.html">Presence Builder</a></li>
+<li class="toctree-l4"><a class="reference internal" href="74103.html">Sistemas de gestión de contenido</a></li>
+<li class="toctree-l4"><a class="reference internal" href="74104.html">Carga de contenido mediante FTP</a></li>
+<li class="toctree-l4"><a class="reference internal" href="74105.html">Carga de contenido a través del administrador de archivos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="70738.html">Cambio de permisos de acceso a directorios y archivos en el administrador de archivos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="75877.html">Despliegue de contenido mediante Git</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="65152.html">Restricción del acceso al contenido</a></li>
+<li class="toctree-l3"><a class="reference internal" href="73573.html">Descripciones del sitio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="69679.html">Previsualización de sitios web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="68973.html">Aplicaciones web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="69479.html">Administración ampliada de sitios web</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="65246.html">Creación de páginas de error personalizadas</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="65652.html">Creación de páginas de error personalizadas en servidores Windows</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65653.html">Creación de páginas de error personalizadas en servidores Linux</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="65284.html">Hosting de páginas web personales debajo de sus dominios</a></li>
+<li class="toctree-l4"><a class="reference internal" href="80011.html">(Plesk para Linux) Configuración de geolocalización IP para un sitio web</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65276.html">(Plesk para Windows) Limitación del ancho de banda y del número de conexiones a un sitio web</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65213.html">(Plesk para Windows) Uso de directorios virtuales</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="65214.html">Creación de directorios virtuales</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65219.html">Configuración de ASP.NET para directorios virtuales</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65220.html">Configuración de PHP para directorios virtuales</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65221.html">Configuración de acceso a directorios virtuales</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65215.html">Modificación de la configuración de un directorio virtual</a></li>
+<li class="toctree-l5"><a class="reference internal" href="65216.html">Adición y eliminación de tipos MIME</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="65282.html">(Plesk para Windows) Configuración del grupo de aplicaciones IIS</a></li>
+<li class="toctree-l4"><a class="reference internal" href="69654.html">(Plesk para Windows) Publicación web con Web Deploy</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="69476.html">(Avanzado) Seguridad de un sitio web</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="65158.html">Protección de conexiones con certificados SSL/TLS</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="80001.html">Protección de conexiones con la extensión SSL It!</a></li>
+<li class="toctree-l5"><a class="reference internal" href="74681.html">Protección de su sitio web mediante un certificado SSL/TLS</a></li>
+<li class="toctree-l5"><a class="reference internal" href="74682.html">Protección de su sitio web mediante un certificado SSL/TLS autofirmado</a></li>
+<li class="toctree-l5"><a class="reference internal" href="74685.html">Compra de un certificado SSL/TLS a través de una autoridad de certificación</a></li>
+<li class="toctree-l5"><a class="reference internal" href="76531.html">Protección de su webmail mediante un certificado SSL/TLS</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="65212.html">(Plesk para Windows) Protección de sitios web de hotlinking</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="80018.html">(Plesk para Linux) Optimización del rendimiento de sitios web</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="73391.html">WP Toolkit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="80010.html">Laravel Toolkit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="75824.html">Soporte de Git</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="75825.html">Uso de un repositorio local</a></li>
+<li class="toctree-l3"><a class="reference internal" href="75848.html">Uso de hosting remoto de Git</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="76489.html">Soporte de Ruby (Linux)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="76554.html">Gestión de aplicaciones Ruby</a></li>
+<li class="toctree-l3"><a class="reference internal" href="76555.html">Gestión de versiones de Ruby mediante CLI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="76553.html">Ejecución de tareas de Rake</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="76652.html">Hosting de aplicaciones Node.js</a></li>
+<li class="toctree-l2"><a class="reference internal" href="70614.html">Creación de sitios con Presence Builder</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="66281.html">Familiarizándose con Presence Builder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="66282.html">Creación de un sitio web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="69967.html">Importación de sitios desde SiteBuilder 4.5</a></li>
+<li class="toctree-l3"><a class="reference internal" href="66284.html">Edición de sitios web</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="69130.html">Estructura: Páginas y navegación</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="66452.html">Adición y eliminación de páginas</a></li>
+<li class="toctree-l5"><a class="reference internal" href="69132.html">Adición y eliminación de enlaces de navegación</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="69127.html">Diseño: Plantillas de diseño, apariencia, estilos, combinación de colores y encabezado</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="72007.html">Selección de una plantilla de diseño de sitio web</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72007.html#selecting-and-applying-a-design-template">Selección y aplicación de una plantilla de diseño</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72007.html#preparing-a-custom-design-template">Preparación de una plantilla de diseño personalizada</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72007.html#importing-and-applying-a-custom-design-template">Importación y aplicación de una plantilla de diseño personalizada</a></li>
+<li class="toctree-l5"><a class="reference internal" href="66450.html">Cambio de la apariencia de su sitio web</a></li>
+<li class="toctree-l5"><a class="reference internal" href="66451.html">Selección de los colores, imágenes de fondo, fuentes y estilos para esquinas y márgenes de un sitio web</a></li>
+<li class="toctree-l5"><a class="reference internal" href="69144.html">Cambio de los elementos del encabezado del sitio web</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="69128.html">Contenido: Texto, tablas, imágenes, vídeo, formularios y scripts</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="69148.html">Texto, tablas, hipervínculos, archivos Flash e imágenes</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="72157.html">Hipervínculos, enlaces a direcciones de email y anclas</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="72012.html">Galería de imágenes</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72015.html">Control deslizante de imágenes</a></li>
+<li class="toctree-l5"><a class="reference internal" href="69145.html">Adición de vídeos</a></li>
+<li class="toctree-l5"><a class="reference internal" href="69146.html">Formulario de contacto</a></li>
+<li class="toctree-l5"><a class="reference internal" href="70024.html">Blog</a></li>
+<li class="toctree-l5"><a class="reference internal" href="70032.html">Comentarios</a></li>
+<li class="toctree-l5"><a class="reference internal" href="70025.html">Documentos y otros archivos descargables</a></li>
+<li class="toctree-l5"><a class="reference internal" href="66416.html">Botones para la compartición en redes sociales</a></li>
+<li class="toctree-l5"><a class="reference internal" href="69151.html">Búsqueda en un sitio</a></li>
+<li class="toctree-l5"><a class="reference internal" href="69126.html">Tienda online</a></li>
+<li class="toctree-l5"><a class="reference internal" href="72025.html">Mapa</a></li>
+<li class="toctree-l5"><a class="reference internal" href="69150.html">(Avanzado) Scripts personalizados</a></li>
+<li class="toctree-l5"><a class="reference internal" href="69147.html">Publicidad</a></li>
+<li class="toctree-l5"><a class="reference internal" href="73309.html">Feed de Twitter</a></li>
+<li class="toctree-l5"><a class="reference internal" href="73312.html">Amazon aStore</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="73493.html">Sitios web en múltiples idiomas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="66449.html">Parámetros de configuración y herramientas para webmasters</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="68657.html">Guardado y carga de copias de un sitio web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="73494.html">Optimización de sitios para su visualización en dispositivos móviles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="66287.html">Publicación de un sitio web en Internet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="68673.html">Publicación de la copia de un sitio web en Facebook</a></li>
+<li class="toctree-l3"><a class="reference internal" href="71061.html">Visualización de estadísticas de visitas al sitio, comentarios y pedidos nuevos en el panel de información</a></li>
+<li class="toctree-l3"><a class="reference internal" href="68663.html">Eliminación de sitios web</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="69544.html">Acceso a sus sitios web mediante FTP</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="65186.html">Cambio de las credenciales de acceso FTP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="65153.html">Adición de cuentas FTP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="65194.html">Configuración de acceso FTP anónimo</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="70616.html">Configuración de correo</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="73389.html">Configuración de correo de los dominios</a></li>
+<li class="toctree-l3"><a class="reference internal" href="65700.html">Adición de cuentas de correo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="73361.html">Configuración de cuenta de correo</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="65144.html">Cambio de la contraseña de una cuenta de correo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65702.html">Establecimiento de redireccionamientos de correo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65701.html">Creación de alias de correo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65703.html">Establecimiento de respuestas automáticas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65690.html">Protección antispam</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65689.html">Protección antivirus</a></li>
+<li class="toctree-l4"><a class="reference internal" href="72412.html">Servicios adicionales</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="73362.html">Limitación del correo saliente</a></li>
+<li class="toctree-l3"><a class="reference internal" href="65696.html">Uso de listas de correo (Windows)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="65207.html">Programación de tareas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="70619.html">Bases de datos de sitios web</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="65157.html">Creación de bases de datos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="71841.html">Acceso a bases de datos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="74497.html">Visualización de los datos de conexión</a></li>
+<li class="toctree-l3"><a class="reference internal" href="71563.html">Copia de bases de datos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="74647.html">Copia y restauración de bases de datos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="69538.html">Exportación e importación de volcados de bases de datos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="69539.html">Administración de cuentas de usuario de base de datos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="73491.html">Configuración de reglas de acceso personalizadas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="74498.html">Verificación y reparación de bases de datos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="74499.html">Transferencia de una base de datos a otra suscripción</a></li>
+<li class="toctree-l3"><a class="reference internal" href="65285.html">(Plesk para Windows) Acceso a bases de datos con ODBC</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="70620.html">Realización de backups y restauraciones de sitios web</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="65198.html">Copia de datos</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="65199.html">Creación de un backup de la cuenta y de los sitios web</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65203.html">Uso del almacenamiento de backups de bases de datos (Windows)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="65202.html">Programación de backups</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="65201.html">Carga, descarga y eliminación de backups</a></li>
+<li class="toctree-l3"><a class="reference internal" href="65200.html">Restauración de backups</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="70690.html">Apéndice A: Propiedades de planes de hosting y suscripciones</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="70003.html">Visibilidad de las prestaciones de hosting en el panel del cliente</a></li>
+<li class="toctree-l2"><a class="reference internal" href="65718.html">Recursos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="76540.html">Administración de la RAM, CPU, E/S disco (Linux)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="65719.html">Permisos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="65720.html">Parámetros de hosting</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="66303.html">Configuración de PHP</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="72120.html">Servidor web (Apache)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="65721.html">Correo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="66229.html">DNS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="65722.html">(Plesk para Windows) Rendimiento</a></li>
+<li class="toctree-l2"><a class="reference internal" href="65723.html">Registros y estadísticas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="66344.html">Aplicaciones</a></li>
+<li class="toctree-l2"><a class="reference internal" href="66388.html">Servicios adicionales</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="65749.html">Apéndice B: Propiedades de las suscripciones y planes de revendedor</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="65750.html">Recursos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="65751.html">Permisos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="65752.html">Direcciones IP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="72870.html">Aplicaciones</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Administrator's Guide</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="70741.html">Administración de sitios web</a> &raquo;</li>
+        
+          <li><a href="70613.html">Sitios web y dominios</a> &raquo;</li>
+        
+          <li><a href="69429.html">Dominios y DNS</a> &raquo;</li>
+        
+      <li>Adición y eliminación de dominios</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="adding-and-removing-domains">
+<h1>Adición y eliminación de dominios<a class="headerlink" href="#adding-and-removing-domains" title="Enlazar permanentemente con este título">¶</a></h1>
+<p class="rubric">Vea el tutorial en vídeo (EN)</p>
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/txnGmdHuU1o" style="border: 0; height: 240px; width: 373px">
+</iframe><p>Si su paquete de hosting incluye más de un nombre de dominio (sitio web), usted puede añadir fácilmente dominios al servidor. Antes de empezar a añadir un dominio nuevo que usará un nombre de dominio de segundo nivel como <em>example.com</em>, compruebe que ha registrado este nombre de dominio. Si su proveedor de hosting proporciona el servicio de registro de nombres de dominio, podrá realizar esta acción mediante el panel del cliente, tal y como describimos a continuación. De lo contrario, debería registrar su nombre de dominio con otra autoridad de registro de nombres de dominio.</p>
+<p>A través de Plesk puede establecer los siguientes tipos de configuraciones de sitio:</p>
+<ul class="simple">
+<li><strong>Sitio web bajo un nombre de dominio de segundo nivel.</strong> Los sitios web disponen de los siguientes servicios:<ul>
+<li>Una dirección de Internet única (nombre de dominio), como puede ser <em>example.com</em>.</li>
+<li>Nombres de dominio adicionales (alias de dominio).</li>
+<li>Subdominios – divisiones de un sitio accesibles a través de direcciones fáciles de recordar que se añaden al sitio principal, como por ejemplo mail.example.com.</li>
+<li>Cuentas FTP adicionales para permitir la colaboración en el contenido del sitio. Para cada cuenta FTP, puede especificar a qué directorios puede accederse.</li>
+<li>Creación de contenido mediante Presence Builder.</li>
+<li>Despliegue simplificado de aplicaciones, como por ejemplo sistemas de gestión de contenido, galerías de fotos, carros de la compra y plataformas de blog, entre otros.</li>
+<li>Intercambio seguro de datos implementado por el protocolo SSL/TLS. Requiere que un sitio esté alojado en una dirección IP dedicada, que no se comparta con otros usuarios o sitios.</li>
+<li>Buzones y listas de correo.</li>
+<li>Visualización de estadísticas de visitas al sitio.</li>
+</ul>
+</li>
+<li><strong>Sitio web o una división de un sitio web bajo un nombre de dominio de tercer nivel (subdominio).</strong> Suele tratarse de una división de un sitio existente. Es una dirección de Internet formada por tres partes separadas por puntos. Los subdominios disponen de los siguientes servicios:<ul>
+<li>Raíz de documento independiente de la del sitio principal. La raíz del documento es el directorio en el servidor donde se almacenan las páginas web de un sitio.</li>
+<li>Acceso a través de FTP para permitir la administración del contenido.</li>
+<li>Creación de contenido mediante Presence Builder.</li>
+<li>Despliegue simplificado de aplicaciones.</li>
+<li>Intercambio seguro de datos implementado por el protocolo SSL/TLS.</li>
+<li>Visualización de estadísticas de visitas al sitio.</li>
+</ul>
+</li>
+</ul>
+<div class="section" id="adding-more-domains">
+<h2>Adición de dominios adicionales<a class="headerlink" href="#adding-more-domains" title="Enlazar permanentemente con este título">¶</a></h2>
+<p class="rubric">Para alojar un sitio web nuevo con un nombre de dominio de segundo nivel:</p>
+<ol class="arabic">
+<li><p class="first">Vaya a <strong>Sitios web y dominios</strong>, haga clic en <strong>Añadir dominio</strong> y siga las indicaciones que aparecen en la pantalla.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">en función de la edición de Plesk utilizada, es posible que la información que especifique en la pantalla <strong>Añadir dominio</strong> no sea la misma.</p>
+</div>
+<p><a class="reference internal" href="_images/76850.png"><img alt="image-76850.png" src="_images/76850.png" style="width: 1074px; height: 563px;" /></a></p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p>si selecciona la opción recomendada, debería conectar los parámetros relacionados de configuración del DNS y su nombre de dominio con el nombre de dominio a nivel del registrador. Para ello, introduzca la dirección IP del servidor de nombres de Plesk en el registro NS correspondiente del registrador. Para examinar las instrucciones para obtener la IP, vaya a <strong>Sitios web y dominios</strong> &gt; nombre del dominio &gt; <strong>Configuración DNS</strong>, busque el registro NS y a continuación busque el registro A correspondiente al valor del registro NS.</p>
+<p>Por ejemplo, si su registro NS es</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>example.com. NS ns.example.com*,
+</pre></div>
+</div>
+<p>localice el registro A con <code class="docutils literal notranslate"><span class="pre">ns.example.com</span></code>, por ejemplo,</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>ns.example.com. A 192.0.2.12
+</pre></div>
+</div>
+<p class="last">El valor resultante, <code class="docutils literal notranslate"><span class="pre">192.0.2.12</span></code>, es la IP del servidor de nombres de Plesk que necesita.</p>
+</div>
+</li>
+<li><p class="first">Haga clic en <strong>ACEPTAR</strong>.</p>
+<p>Ahora, en la lista que se muestra en la parte inferior de la pantalla podrá ver el nombre del dominio nuevo.</p>
+</li>
+<li><p class="first">Si la operación de edición de la configuración de hosting está disponible para su cuenta, usted puede hacer clic en el nombre de dominio del sitio web nuevo para visualizar o editar los parámetros de configuración de hosting, tal y como se describe en la sección <a class="reference internal" href="69455.html"><span class="doc">Modificación de los parámetros de hosting</span></a>.</p>
+</li>
+</ol>
+<p>Ahora puede empezar a crear su sitio web con Presence Builder o cargar su contenido web en la suscripción del sitio web nuevo, tal y como se describe en la sección <a class="reference internal" href="69462.html"><span class="doc">Contenido de un sitio web</span></a>.</p>
+</div>
+<div class="section" id="choosing-a-domains-view-mode">
+<h2>Selección del modo de visualización de un dominio<a class="headerlink" href="#choosing-a-domains-view-mode" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La pantalla «Sitios web y dominios» se muestra de una forma u otra (apariencia, controles visibles y UX en general) en función del modo de visualización del dominio seleccionado:</p>
+<ul class="simple">
+<li>La lista dinámica es la mejor opción, puesto que combina las ventajas de los otros dos modos de visualización: una apariencia lacónica con un gran número de dominios y una lista ampliable que contiene todos los controles disponibles. La lista dinámica es también el único modo que muestra <a class="reference internal" href="#domain-favicon"><span class="std std-ref">favicons de dominio</span></a>.</li>
+<li>La lista activa es la opción ideal si dispone de varios dominios y desea tener acceso a todos los controles disponibles.</li>
+<li>La lista clásica es perfecta si dispone de un gran número de dominios (más de 100). De todos modos, no verá todos los controles necesarios.</li>
+</ul>
+<p><a class="reference internal" href="_images/80153.png"><img alt="image-views" src="_images/80153.png" style="width: 149.0px; height: 286.0px;" /></a></p>
+<p>Para seleccionar el modo de visualización, vaya a <strong>Sitios web y dominios</strong>, haga clic en el icono <a class="reference internal" href="_images/80154.png"><img alt="image-wrench" src="_images/80154.png" style="width: 26.0px; height: 26.0px;" /></a> y seleccione el modo deseado.</p>
+</div>
+<div class="section" id="adding-a-domain-favicon">
+<span id="domain-favicon"></span><h2>Adición de un favicon de dominio<a class="headerlink" href="#adding-a-domain-favicon" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Un favicon de dominio es una pequeña imagen que Plesk muestra al lado de un nombre de dominio si usa la visualización Lista Dinámica. Puede ver favicons en las siguientes pantallas:</p>
+<ul class="simple">
+<li>(Para la vista Power User) <strong>Sitios web y dominios</strong></li>
+<li>(Para la vista Proveedor de Servicios) <strong>Dominios</strong> y <strong>Suscripciones</strong></li>
+</ul>
+<p>Una vez creado un dominio, Plesk genera y muestra un favicon predeterminado basándose en los primeros dos caracteres del nombre de dominio.</p>
+<p><a class="reference internal" href="_images/65150-default-favicon.png"><img alt="image-default-favicon" src="_images/65150-default-favicon.png" style="width: 772.0px; height: 218.0px;" /></a></p>
+<p>De todos modos, puede añadir su favicon personalizado, por ejemplo, el mismo que usa como favicon de su sitio web que se muestra en la pestaña del navegador. Los favicons de dominio personalizados le ayudan a:</p>
+<ul class="simple">
+<li>Encontrar el sitio web deseado más fácilmente.</li>
+<li>Diferenciar un dominio de otro.</li>
+</ul>
+<p class="rubric">Para añadir un favicon de dominio de Lista Dinámica:</p>
+<ol class="arabic">
+<li><p class="first">Escoja la imagen PNG, SVG o ICO que usará como favicon.</p>
+</li>
+<li><p class="first">Asigne cualquiera de los siguientes nombres a la imagen del favicon:</p>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">favicon.svg</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">favicon-32x32.png</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">favicon.png</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">favicon-16x16.png</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">apple-touch-icon.png</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">favicon.ico</span></code></li>
+</ul>
+</li>
+<li><p class="first"><a class="reference internal" href="65148.html"><span class="doc">Mediante el administrador de archivos</span></a>, cargue la imagen a uno de los siguientes directorios del sitio web:</p>
+<ul class="simple">
+<li>El directorio raíz de documentos, que por defecto es <code class="docutils literal notranslate"><span class="pre">httpdocs</span></code> (a menos que defina una raíz de documentos personalizada)</li>
+<li><code class="docutils literal notranslate"><span class="pre">/images</span></code> en el directorio raíz de documentos</li>
+<li><code class="docutils literal notranslate"><span class="pre">/assets/images</span></code> en el directorio raíz de documentos</li>
+</ul>
+<p><a class="reference internal" href="_images/65150-favicon-location.png"><img alt="image-favicon-location" src="_images/65150-favicon-location.png" style="width: 1087.0px; height: 425.0px;" /></a></p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Es esencial que cargue un favicon a uno de los directorios mencionados anteriormente. Para mostrar un favicon personalizado, Plesk busca coincidencias exactas de nombre de archivo de forma recursiva en los directorios. Si carga el archivo <code class="docutils literal notranslate"><span class="pre">favicon.svg</span></code> al directorio <code class="docutils literal notranslate"><span class="pre">/images/favicon</span></code>, Plesk no encontrará la imagen, puesto que <code class="docutils literal notranslate"><span class="pre">/images/favicon</span></code> es un subdirectorio del directorio en cuestión.</p>
+</div>
+</li>
+</ol>
+<p>Usted ha cargado su imagen de favicon predeterminada. Para que Plesk muestre su favicon, espere un poco o actualice la página de Plesk.</p>
+<p><a class="reference internal" href="_images/65150-favicon-custom.png"><img alt="image-custom-favicon" src="_images/65150-favicon-custom.png" style="width: 813.0px; height: 206.0px;" /></a></p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Si su sitio web se ejecuta en WordPress, puede crear tanto el favicon del dominio como el del sitio web a la vez usando el plugin <a class="reference external" href="https://wordpress.org/plugins/favicon-by-realfavicongenerator/">Favicon by RealFaviconGenerator</a>. Plesk detecta un favicon de sitio web creado por el wizard del plugin y lo configura automáticamente para el dominio en la visualización Lista Dinámica.</p>
+</div>
+<p>Para que Plesk encuentre un favicon, es necesario asignar un nombre correcto a una imagen de favicon y trasladarlo a los directorios designados tal y como se ha descrito anteriormente. De todos modos, puede establecer una ubicación y un nombre personalizado para un favicon mediante el archivo <code class="docutils literal notranslate"><span class="pre">panel.ini</span></code>.</p>
+<p class="rubric">Para establecer una ubicación personalizada para el favicon de dominio de Lista Dinámica:</p>
+<ol class="arabic">
+<li><p class="first"><a class="reference internal" href="78509.html"><span class="doc">Abra el archivo «panel.ini» para poder editarlo</span></a>, presente en:</p>
+<ul class="simple">
+<li>(Plesk para Linux) <code class="docutils literal notranslate"><span class="pre">/usr/local/psa/admin/conf/panel.ini</span></code></li>
+<li>(Plesk para Windows) <code class="docutils literal notranslate"><span class="pre">%plesk_dir%admin\conf\panel.ini</span></code></li>
+</ul>
+<p>También puede editar el archivo en la interfaz de Plesk usando la extensión <a class="reference external" href="https://www.plesk.com/extensions/panel-ini-editor/">Panel.ini Editor</a>.</p>
+</li>
+<li><p class="first">Añada líneas del siguiente patrón y guarde el archivo:</p>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[domainManagement]</span>
+<span class="na">favicons.customPaths[]</span> <span class="o">=</span> <span class="s">path/to/custom_favicon_name.ico</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<p>Si establece una ubicación personalizada para un favicon, los favicons generados por el plugin <a class="reference external" href="https://wordpress.org/plugins/favicon-by-realfavicongenerator/">Favicon by RealFaviconGenerator</a> dejarán de funcionar. Para que vuelvan a estar operativos, añada la ruta personalizada predeterminada para Favicon by RealFaviconGenerator:</p>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[domainManagement]</span>
+<span class="na">favicons.customPaths[]</span> <span class="o">=</span> <span class="s">path/to/custom_favicon_name.ico ; your custom path added earlier</span>
+<span class="na">favicons.customPaths[]</span> <span class="o">=</span> <span class="s">/wp-content/uploads/fbrfg/favicon.ico ; default custom path for Favicon by RealFaviconGenerator</span>
+</pre></div>
+</div>
+<p>Si no desea ver ningún favicon de dominio (ni los personalizados ni los predeterminados) en la visualización Lista Dinámica, puede desactivar los favicons.</p>
+<p class="rubric">Para desactivar los favicons de dominio en la Lista Dinámica:</p>
+<ol class="arabic">
+<li><p class="first"><a class="reference internal" href="78509.html"><span class="doc">Abra el archivo «panel.ini» para poder editarlo</span></a>, presente en:</p>
+<ul class="simple">
+<li>(Plesk para Linux) <code class="docutils literal notranslate"><span class="pre">/usr/local/psa/admin/conf/panel.ini</span></code></li>
+<li>(Plesk para Windows) <code class="docutils literal notranslate"><span class="pre">%plesk_dir%admin\conf\panel.ini</span></code></li>
+</ul>
+<p>También puede editar el archivo en la interfaz de Plesk usando la extensión <a class="reference external" href="https://www.plesk.com/extensions/panel-ini-editor/">Panel.ini Editor</a>.</p>
+</li>
+<li><p class="first">Añada las siguientes líneas y guarde el archivo:</p>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[domainManagement]</span>
+<span class="na">favicons.enabled</span> <span class="o">=</span> <span class="s">false</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="moving-domains">
+<h2>Transferencia de dominios<a class="headerlink" href="#moving-domains" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Puede transferir lo siguiente:</p>
+<ul class="simple">
+<li>Un dominio complementario (un dominio creado tras el dominio de la primera suscripción) a una suscripción nueva o ya existente. Un dominio complementario transferido a una suscripción nueva deviene el dominio principal de la suscripción nueva.</li>
+<li>Un dominio principal (el dominio de la primera suscripción) a una suscripción existente. Un dominio principal transferido a una suscripción existente deviene un dominio complementario de esta suscripción mientras se elimina la suscripción de origen.</li>
+</ul>
+<p>La transferencia incluye sus dominios y suscripciones, así como aquellos pertenecientes a sus clientes y revendedores.</p>
+<p>La transferencia de un dominio complementario a una suscripción existente ayuda a:</p>
+<ul class="simple">
+<li>Reasignar dominios entre clientes y revendedores.</li>
+<li>Asignar dominios correctamente después de la migración de una versión anterior de Plesk y otros paneles de hosting web.</li>
+<li>Conservar sitios web de prueba por separado de los de producción y mover los sitios web en fase de desarrollo a producción.</li>
+<li>Mover dominios creados por error a la suscripción correcta.</li>
+<li>Usar los recursos de las suscripciones de forma más eficiente.</li>
+</ul>
+<p>Transferir un dominio complementario a una suscripción nueva es útil en los siguientes casos:</p>
+<ul class="simple">
+<li>Desea dividir una suscripción que cuenta con varios dominios para vender uno de los dominios.</li>
+<li>Una suscripción está a punto de llegar al límite de recursos permitidos.</li>
+<li>Necesita aislar un dominio cuya seguridad está en riesgo.</li>
+</ul>
+<p>La transferencia de un dominio principal a una suscripción existente le permite fusionar varias suscripciones, lo que le ayuda a:</p>
+<ul class="simple">
+<li>Usar los recursos de forma más eficiente.</li>
+<li>Gestionar una suscripción en vez de gestionar varias.</li>
+<li>Reorganizar dominios entre suscripciones durante una migración.</li>
+</ul>
+<p>Cuando se transfiere un dominio, también se mueve todo su contenido, archivos de configuración, archivos de registro, configuración de PHP, aplicaciones APS y subdominios y alias de dominio (de existir).</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">La suscripción de destino donde desea transferir su dominio debe disponer de suficientes recursos (sitios web, subdominios, alias de dominio o nombres de correo).</p>
+</div>
+<p class="rubric">Para transferir un dominio a una suscripción nueva o una existente:</p>
+<ol class="arabic">
+<li><p class="first">Vaya a <strong>Sitios web y dominios</strong>, busque el dominio que desea transferir y haga clic en <strong>Mover el dominio</strong>.</p>
+<p><a class="reference internal" href="_images/80136.png"><img alt="image-move" src="_images/80136.png" style="width: 573.0px; height: 255.0px;" /></a></p>
+</li>
+<li><p class="first">Escoja dónde desea transferir el dominio:</p>
+<ul class="simple">
+<li>Si desea transferirlo a una suscripción existente, seleccione la suscripción y haga clic en <strong>Mover</strong>.</li>
+<li>Si desea transferirlo a una suscripción nueva, seleccione la opción «Crear una suscripción nueva», indique las credenciales del sistema en los campos correspondientes y haga clic en <strong>Mover</strong>.</li>
+</ul>
+</li>
+</ol>
+<p>Una vez completada la transferencia, su dominio se asignará a la suscripción escogida.</p>
+<div class="section" id="known-issues-and-limitations">
+<h3>Limitaciones y problemas conocidos<a class="headerlink" href="#known-issues-and-limitations" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>La transferencia de dominios presenta una serie de incidencias y limitaciones, la mayoría de las cuales son válidas para todas las operaciones de transferencia (tanto dominios principales como dominios complementarios). Otras limitaciones solo son aplicables en el caso de solo transferir dominios complementarios o solo dominios principales.</p>
+<div class="section" id="all-moving-operations">
+<h4>Todas las operaciones de transferencia<a class="headerlink" href="#all-moving-operations" title="Enlazar permanentemente con este título">¶</a></h4>
+<ul>
+<li><p class="first">No es posible transferir un dominio a una suscripción que no disponga de hosting.</p>
+</li>
+<li><p class="first">Los usuarios detallados a continuación son los únicos que pueden transferir un dominio complementario a una suscripción nueva y un dominio principal a una suscripción existente:</p>
+<ul class="simple">
+<li>El administrador de Plesk.</li>
+<li>Revendedores que dispongan del permiso «Creación de suscripciones en el panel de administración del servidor y creación de dominios en el panel del cliente».</li>
+</ul>
+</li>
+<li><p class="first">No puede transferir un dominio si ya existe un dominio con la misma raíz de documentos propiedad de la suscripción de destino. Para transferirlo deberá modificar su valor «Raíz de documentos» (en Configuración de hosting).</p>
+</li>
+<li><p class="first">No es posible transferir un dominio con servicio de correo a una suscripción que no disponga de este.</p>
+</li>
+<li><p class="first">Si se transfirió un dominio con directivas Apache o nginx adicionales personalizadas a otra suscripción, se preservaran las directivas y es posible que necesite revisarlas.</p>
+</li>
+<li><p class="first">Si transfiere un dominio que dispone de ambos:</p>
+<ul class="simple">
+<li>Aplicación web instalado (WordPress, Joomla! o cualquier otra)</li>
+<li>Un usuario adicional de Plesk configurado como administrador de la aplicación,</li>
+</ul>
+<p>El usuario adicional ya no podrá acceder a la aplicación. Se modificaran las credenciales del administrador de la aplicación (puede verlas en la configuración de la aplicación).</p>
+</li>
+<li><p class="first">Si transfiere un dominio con un usuario de correo a una suscripción que pertenece a otro propietario, la dirección de email ya no estará asociada al usuario de correo.</p>
+</li>
+<li><p class="first">Si transfiere un dominio a una suscripción con otra configuración de PHP, se bloqueará la suscripción de destino.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="moving-add-on-domains">
+<h4>Transferencia de dominios complementarios<a class="headerlink" href="#moving-add-on-domains" title="Enlazar permanentemente con este título">¶</a></h4>
+<ul class="simple">
+<li>Lo siguiente no puede transferirse:<ul>
+<li>Un subdominio sin su dominio principal.</li>
+<li>Un alias de dominio sin su dominio principal.</li>
+</ul>
+</li>
+<li>La transferencia de un dominio donde se ha instalado una aplicación web (WordPress, Joomla! o cualquier otra) no transfiere automáticamente la base de datos de la aplicación. Esto no afecta al sitio web, si bien es posible que desee transferir la base de datos manualmente a la suscripción a la que ahora se ha asignado el dominio.</li>
+</ul>
+</div>
+<div class="section" id="moving-main-domains">
+<h4>Transferencia de dominios principales<a class="headerlink" href="#moving-main-domains" title="Enlazar permanentemente con este título">¶</a></h4>
+<ul class="simple">
+<li>Lo siguiente no puede transferirse:<ul>
+<li>Un dominio principal (el dominio creado cuando se creó una suscripción) cuya suscripción presenta dominios complementarios.</li>
+<li>Un dominio principal que cuenta con usuarios web.</li>
+</ul>
+</li>
+<li>La transferencia de un dominio principal donde se ha instalado una aplicación web (WordPress, Joomla! o cualquier otra) transfiere los usuarios de la base de datos y la base de datos de la aplicación de forma automática.</li>
+<li>La transferencia de un dominio principal donde se ha programado una tarea de backup hará que dicha tarea no se lleve a cabo.</li>
+<li>La transferencia de un dominio principal desactivará el acceso FTP anónimo si este se configuró para el dominio.</li>
+<li>La transferencia de un dominio principal que cuenta con usuarios adicionales cancelará la asociación de los usuarios de la suscripción de origen y los transferirá a la suscripción de destino.</li>
+<li>La transferencia de un dominio principal donde se han programado tareas implica que también se moverán las tareas a la suscripción de destino.</li>
+<li>La transferencia de un dominio principal que cuenta con usuarios FTP adicionales implica la transferencia de los usuarios a la suscripción de destino y la preservación de sus directorios principales.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="removing-domains">
+<h2>Eliminación de dominios<a class="headerlink" href="#removing-domains" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Cuando elimine un dominio de Plesk, todos los datos relacionados con el sitio correspondiente serán eliminados del servidor.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">el dominio principal de su suscripción -es decir, el primer nombre de dominio (predeterminado) que se creó para su cuenta- no puede eliminarse; no obstante, sí puede cambiarle el nombre.</p>
+</div>
+<p class="rubric">Para eliminar un dominio:</p>
+<ol class="arabic simple">
+<li>Vaya a <strong>Sitios web y dominios</strong> y localice el nombre del dominio o subdominio que desea eliminar.</li>
+<li>Haga clic en <strong>Eliminar sitio web</strong> o <strong>Eliminar subdominio</strong>.</li>
+<li>Confirme la eliminación y haga clic en <strong>ACEPTAR</strong>.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">la eliminación de nombres de dominio del panel del cliente no cancela el registro de dichos nombres. Si ya registró estos nombres de dominio, podrá seguir usándolos para sus sitios web.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright Plesk
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'./',
+              VERSION:'obsidian',
+              LANGUAGE:'es',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  false,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
