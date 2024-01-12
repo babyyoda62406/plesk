@@ -12,8 +12,8 @@ body{
 
 a.box{
     border: 1px solid gainsboro;
-    width:  300px;
-    height: 300px;
+    width:  250px;
+    height: 250px;
     border-radius: 5px;
     box-shadow: #a5a0a0d6 2px 2px 7px; 
     color: black;
@@ -23,7 +23,7 @@ a.box{
     justify-content: space-between;
     align-items: center;
     padding: 18px;
-    margin: 10px;
+    margin: 50px;
     transition: all 0.5s;
 }
 
